@@ -1,0 +1,35 @@
+{
+  "scenario": "crossed_cve_repo_clusters",
+  "requested_replicates": 1000,
+  "retained_replicates": 1000,
+  "valid_replicates": 1000,
+  "coverage": 0.943,
+  "coverage_MCSE": 0.007331507348424336,
+  "coverage_Wilson95": [
+    0.9268629323405141,
+    0.9557465596412841
+  ],
+  "mean_bias": 0.0007072916666666667,
+  "bias_MCSE": 0.0007074544273119791,
+  "mean_estimate": 0.0007072916666666667,
+  "mean_truth": 0.0,
+  "rejection_rate": 0.057,
+  "rejection_Wilson95": [
+    0.04425344035871594,
+    0.07313706765948591
+  ],
+  "MME": 0.05,
+  "bias_limit": 0.005000000000000001,
+  "stress_method": "independent_row_interval_under_crossed_clusters",
+  "stress_coverage": 0.867,
+  "stress_failure_exposed": true,
+  "checks": {
+    "all_requested_retained": true,
+    "all_variances_valid": true,
+    "coverage_in_frozen_band": true,
+    "bias_below_ten_percent_MME": true,
+    "null_rejection_at_most_008": true,
+    "deliberate_violation_exposes_failure": true
+  },
+  "validation_status": "PASS"
+}

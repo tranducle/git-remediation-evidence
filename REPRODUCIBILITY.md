@@ -25,3 +25,9 @@ The reusable parsing code operates on immutable snapshot dictionaries. To collec
 The public replay uses the supplied metadata projections instead of loading full third-party snapshot payloads. It retains the first constraint observation per anchor and the original ordering used by the analyses. No endpoint states or unknown exposures are inferred from missing source files.
 
 The administrative mode named `official` in inherited low-level APIs is intentionally unavailable. It requires the original research administration and does not substitute a successful public replay for a new authorization to collect data. Use the documented reproduction command for this dataset.
+
+## Known-process Monte Carlo calibration
+
+The original calibration covers eight scenarios with 1000 replicates each. `configs/calibration.json` retains the exact base seed, scenario order, cluster counts and event times. `results/calibration/` retains the original numeric replicate records and diagnostics. The aggregate reference summary omits author administrative flags and path-dependent code metadata; its statistical values and validation scope are preserved.
+
+Use the two calibration commands in the README. The output directory must not already exist. `scripts/verify_calibration.py` compares the complete 8000-replicate result and both diagnostic CSVs at absolute and relative tolerance 1e-10. The known processes do not establish empirical identification or validate fitted doubly robust nuisance models. The tested dependency closure is in requirements.lock; the calibration's direct library versions are also recorded in configs/environment.json.

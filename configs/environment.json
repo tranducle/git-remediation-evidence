@@ -1,0 +1,12 @@
+{
+  "python": "3.14.5",
+  "implementation": "CPython",
+  "machine": "arm64",
+  "direct_calibration_dependencies": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "statsmodels": "0.14.6",
+    "pandas": "2.3.3"
+  },
+  "dependency_lock": "requirements.lock"
+}

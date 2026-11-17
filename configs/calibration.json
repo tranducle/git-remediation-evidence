@@ -1,0 +1,25 @@
+{
+  "mode": "validation",
+  "replicates": 1000,
+  "base_seed": 20261112,
+  "repository_clusters": 32,
+  "cve_clusters": 120,
+  "event_times": [
+    -3,
+    -2,
+    0,
+    3,
+    7,
+    13
+  ],
+  "scenarios": [
+    "null",
+    "staggered_heterogeneous",
+    "anticipation_corrected",
+    "changing_risk_sets",
+    "crossed_cve_repo_clusters",
+    "censoring_ipcw",
+    "reentry_current_state",
+    "competing_removal_cif"
+  ]
+}

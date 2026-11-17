@@ -6,3 +6,4 @@ packaging==26.0
 PyYAML==6.0.3
 lifelines==0.30.3
 pytest==9.0.2
+statsmodels==0.14.6

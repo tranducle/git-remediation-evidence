@@ -1,0 +1,34 @@
+{
+  "scenario": "reentry_current_state",
+  "requested_replicates": 1000,
+  "retained_replicates": 1000,
+  "valid_replicates": 1000,
+  "coverage": 0.947,
+  "coverage_MCSE": 0.007084560677981384,
+  "coverage_Wilson95": [
+    0.9313253831625082,
+    0.9592534947514054
+  ],
+  "mean_bias": 0.00026251378957133873,
+  "bias_MCSE": 0.0005941267675606758,
+  "mean_estimate": 0.049644097222222225,
+  "mean_truth": 0.04938158343265088,
+  "rejection_rate": 0.733,
+  "rejection_Wilson95": [
+    0.7047270990046101,
+    0.7594896315411211
+  ],
+  "MME": 0.05,
+  "bias_limit": 0.005000000000000001,
+  "stress_method": "absorbing_measure_substituted_for_current_state",
+  "stress_mean_bias": -0.04035033343265088,
+  "stress_failure_exposed": true,
+  "checks": {
+    "all_requested_retained": true,
+    "all_variances_valid": true,
+    "coverage_in_frozen_band": true,
+    "bias_below_ten_percent_MME": true,
+    "deliberate_violation_exposes_failure": true
+  },
+  "validation_status": "PASS"
+}

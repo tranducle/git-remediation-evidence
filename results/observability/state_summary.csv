@@ -1,0 +1,5 @@
+experiment_id,metric_name,metric_value,n_observations,output_label
+D1,total_observation_units,74673,74673,"tab:panel_baselines,fig:architecture"
+D1,eligible_91d_count,74673,74673,"tab:panel_baselines,fig:architecture"
+D1,eligible_180d_count,57404,74673,"tab:panel_baselines,fig:architecture"
+D1,explicit_unknown_unit_count,60888,74673,"tab:panel_baselines,fig:architecture"

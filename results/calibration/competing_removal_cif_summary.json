@@ -1,0 +1,30 @@
+{
+  "scenario": "competing_removal_cif",
+  "requested_replicates": 1000,
+  "retained_replicates": 1000,
+  "valid_replicates": 1000,
+  "coverage": 0.943,
+  "coverage_MCSE": 0.007331507348424336,
+  "coverage_Wilson95": [
+    0.9268629323405141,
+    0.9557465596412841
+  ],
+  "mean_bias": 0.00043258790518348005,
+  "bias_MCSE": 0.0003849062089223995,
+  "mean_estimate": 0.07764914921355846,
+  "mean_truth": 0.077216561308375,
+  "rejection_rate": 1.0,
+  "rejection_Wilson95": [
+    0.996173241514445,
+    1.0
+  ],
+  "MME": 0.035,
+  "bias_limit": 0.0035000000000000005,
+  "checks": {
+    "all_requested_retained": true,
+    "all_variances_valid": true,
+    "coverage_in_frozen_band": true,
+    "bias_below_ten_percent_MME": true
+  },
+  "validation_status": "PASS"
+}

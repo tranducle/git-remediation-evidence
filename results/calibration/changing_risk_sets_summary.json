@@ -1,0 +1,34 @@
+{
+  "scenario": "changing_risk_sets",
+  "requested_replicates": 1000,
+  "retained_replicates": 1000,
+  "valid_replicates": 1000,
+  "coverage": 0.938,
+  "coverage_MCSE": 0.00762600813007697,
+  "coverage_Wilson95": [
+    0.9213119396866343,
+    0.9513358198800193
+  ],
+  "mean_bias": -0.00043727927936718666,
+  "bias_MCSE": 0.0006842507278331507,
+  "mean_estimate": 0.048582630319417175,
+  "mean_truth": 0.04901990959878437,
+  "rejection_rate": 0.573,
+  "rejection_Wilson95": [
+    0.5421204037602065,
+    0.6033208895009023
+  ],
+  "MME": 0.05,
+  "bias_limit": 0.005000000000000001,
+  "stress_method": "post_outcome_risk_selection",
+  "stress_mean_bias": -0.049339937057234044,
+  "stress_failure_exposed": true,
+  "checks": {
+    "all_requested_retained": true,
+    "all_variances_valid": true,
+    "coverage_in_frozen_band": true,
+    "bias_below_ten_percent_MME": true,
+    "deliberate_violation_exposes_failure": true
+  },
+  "validation_status": "PASS"
+}

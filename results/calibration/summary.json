@@ -1,0 +1,278 @@
+{
+  "process_status": "COMPLETED",
+  "validation_status": "PASS",
+  "requested_replicates": 8000,
+  "retained_replicates": 8000,
+  "scenario_summaries": [
+    {
+      "scenario": "null",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.941,
+      "coverage_MCSE": 0.007451107300260817,
+      "coverage_Wilson95": [
+        0.9246390972285408,
+        0.9539857017871995
+      ],
+      "mean_bias": -0.0002993055555555556,
+      "bias_MCSE": 0.0005832457470319919,
+      "mean_estimate": -0.0002993055555555556,
+      "mean_truth": 0.0,
+      "rejection_rate": 0.059,
+      "rejection_Wilson95": [
+        0.04601429821280047,
+        0.07536090277145915
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true,
+        "null_rejection_at_most_008": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "staggered_heterogeneous",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.943,
+      "coverage_MCSE": 0.007331507348424336,
+      "coverage_Wilson95": [
+        0.9268629323405141,
+        0.9557465596412841
+      ],
+      "mean_bias": 0.00013576388888888313,
+      "bias_MCSE": 0.0005862669061693109,
+      "mean_estimate": 0.050135763888888886,
+      "mean_truth": 0.05000000000000001,
+      "rejection_rate": 0.766,
+      "rejection_Wilson95": [
+        0.7387721670475355,
+        0.7911919974381493
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "anticipation_corrected",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.942,
+      "coverage_MCSE": 0.007391616873188169,
+      "coverage_Wilson95": [
+        0.9257504237337675,
+        0.9548667217650018
+      ],
+      "mean_bias": -0.00041909722222222787,
+      "bias_MCSE": 0.0005694766309347798,
+      "mean_estimate": 0.04958090277777778,
+      "mean_truth": 0.05000000000000001,
+      "rejection_rate": 0.783,
+      "rejection_Wilson95": [
+        0.7563948567746954,
+        0.8074391979224804
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "stress_method": "unadjusted_anticipatory_baseline",
+      "stress_mean_bias": -0.025461111111111115,
+      "stress_failure_exposed": true,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true,
+        "deliberate_violation_exposes_failure": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "changing_risk_sets",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.938,
+      "coverage_MCSE": 0.00762600813007697,
+      "coverage_Wilson95": [
+        0.9213119396866343,
+        0.9513358198800193
+      ],
+      "mean_bias": -0.00043727927936718666,
+      "bias_MCSE": 0.0006842507278331507,
+      "mean_estimate": 0.048582630319417175,
+      "mean_truth": 0.04901990959878437,
+      "rejection_rate": 0.573,
+      "rejection_Wilson95": [
+        0.5421204037602065,
+        0.6033208895009023
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "stress_method": "post_outcome_risk_selection",
+      "stress_mean_bias": -0.049339937057234044,
+      "stress_failure_exposed": true,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true,
+        "deliberate_violation_exposes_failure": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "crossed_cve_repo_clusters",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.943,
+      "coverage_MCSE": 0.007331507348424336,
+      "coverage_Wilson95": [
+        0.9268629323405141,
+        0.9557465596412841
+      ],
+      "mean_bias": 0.0007072916666666667,
+      "bias_MCSE": 0.0007074544273119791,
+      "mean_estimate": 0.0007072916666666667,
+      "mean_truth": 0.0,
+      "rejection_rate": 0.057,
+      "rejection_Wilson95": [
+        0.04425344035871594,
+        0.07313706765948591
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "stress_method": "independent_row_interval_under_crossed_clusters",
+      "stress_coverage": 0.867,
+      "stress_failure_exposed": true,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true,
+        "null_rejection_at_most_008": true,
+        "deliberate_violation_exposes_failure": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "censoring_ipcw",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.946,
+      "coverage_MCSE": 0.0071473071852271785,
+      "coverage_Wilson95": [
+        0.9302078451539475,
+        0.9583786862769372
+      ],
+      "mean_bias": -0.00029121158066953555,
+      "bias_MCSE": 0.0008542104652689174,
+      "mean_estimate": 0.04970878841933047,
+      "mean_truth": 0.05000000000000001,
+      "rejection_rate": 0.424,
+      "rejection_Wilson95": [
+        0.3937184466169774,
+        0.4548632206728269
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "stress_method": "outcome_dependent_censoring_without_adjustment",
+      "stress_mean_bias": -0.02426982773989873,
+      "stress_failure_exposed": true,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true,
+        "deliberate_violation_exposes_failure": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "reentry_current_state",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.947,
+      "coverage_MCSE": 0.007084560677981384,
+      "coverage_Wilson95": [
+        0.9313253831625082,
+        0.9592534947514054
+      ],
+      "mean_bias": 0.00026251378957133873,
+      "bias_MCSE": 0.0005941267675606758,
+      "mean_estimate": 0.049644097222222225,
+      "mean_truth": 0.04938158343265088,
+      "rejection_rate": 0.733,
+      "rejection_Wilson95": [
+        0.7047270990046101,
+        0.7594896315411211
+      ],
+      "MME": 0.05,
+      "bias_limit": 0.005000000000000001,
+      "stress_method": "absorbing_measure_substituted_for_current_state",
+      "stress_mean_bias": -0.04035033343265088,
+      "stress_failure_exposed": true,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true,
+        "deliberate_violation_exposes_failure": true
+      },
+      "validation_status": "PASS"
+    },
+    {
+      "scenario": "competing_removal_cif",
+      "requested_replicates": 1000,
+      "retained_replicates": 1000,
+      "valid_replicates": 1000,
+      "coverage": 0.943,
+      "coverage_MCSE": 0.007331507348424336,
+      "coverage_Wilson95": [
+        0.9268629323405141,
+        0.9557465596412841
+      ],
+      "mean_bias": 0.00043258790518348005,
+      "bias_MCSE": 0.0003849062089223995,
+      "mean_estimate": 0.07764914921355846,
+      "mean_truth": 0.077216561308375,
+      "rejection_rate": 1.0,
+      "rejection_Wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "MME": 0.035,
+      "bias_limit": 0.0035000000000000005,
+      "checks": {
+        "all_requested_retained": true,
+        "all_variances_valid": true,
+        "coverage_in_frozen_band": true,
+        "bias_below_ten_percent_MME": true
+      },
+      "validation_status": "PASS"
+    }
+  ],
+  "environment": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "statsmodels": "0.14.6",
+    "pandas": "2.3.3"
+  },
+  "validation_scope": "Unadjusted group-time DID, fixed-weight event aggregation, known observation weights, two-way influence uncertainty, reversible-state and first-response primitives, and unadjusted competing-risk CIF; no empirical identification or fitted DR nuisance-model validation",
+  "config_sha256": "ce0a1688ff1b97afad2f15b88373a9833e394c9fe93b03faee616dc56775b703"
+}

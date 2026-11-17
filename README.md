@@ -13,7 +13,7 @@ Use Python 3.14.5. Install the pinned environment, run the tests and regenerate 
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.lock
 pytest tests/
 python scripts/reproduce.py
 ```
@@ -37,3 +37,14 @@ Code is released under the MIT license. The authors' derived research data are a
 ## Citation
 
 Use [CITATION.cff](CITATION.cff) to cite this software and data. The accompanying manuscript is unpublished; this repository does not assign it a journal publication or DOI.
+
+## Calibration and artifact coverage
+
+[Artifact inventory](docs/ARTIFACTS.md) maps the parser, tests, calibration, analysis outputs and table/figure inputs to public files. The complete Monte Carlo calibration and its 8000 recorded replicates are included. Run it in an output directory that does not already exist:
+
+```sh
+python scripts/simulate_calibration.py configs/calibration.json /tmp/git-remediation-calibration
+python scripts/verify_calibration.py /tmp/git-remediation-calibration
+```
+
+The comparison checks the numerical summaries and every replicate/diagnostic row against the recorded reference results. This calibration evaluates estimator mechanics under known simulated processes, independently of the empirical missingness and identification assumptions.

@@ -1,0 +1,34 @@
+{
+  "scenario": "anticipation_corrected",
+  "requested_replicates": 1000,
+  "retained_replicates": 1000,
+  "valid_replicates": 1000,
+  "coverage": 0.942,
+  "coverage_MCSE": 0.007391616873188169,
+  "coverage_Wilson95": [
+    0.9257504237337675,
+    0.9548667217650018
+  ],
+  "mean_bias": -0.00041909722222222787,
+  "bias_MCSE": 0.0005694766309347798,
+  "mean_estimate": 0.04958090277777778,
+  "mean_truth": 0.05000000000000001,
+  "rejection_rate": 0.783,
+  "rejection_Wilson95": [
+    0.7563948567746954,
+    0.8074391979224804
+  ],
+  "MME": 0.05,
+  "bias_limit": 0.005000000000000001,
+  "stress_method": "unadjusted_anticipatory_baseline",
+  "stress_mean_bias": -0.025461111111111115,
+  "stress_failure_exposed": true,
+  "checks": {
+    "all_requested_retained": true,
+    "all_variances_valid": true,
+    "coverage_in_frozen_band": true,
+    "bias_below_ten_percent_MME": true,
+    "deliberate_violation_exposes_failure": true
+  },
+  "validation_status": "PASS"
+}

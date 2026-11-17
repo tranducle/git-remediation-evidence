@@ -1234,6 +1234,110 @@
       "sha256": "18a4e4def32c35eeab8c3521d5715ab289b6d157158b4c9cf383896c29aa07b2",
       "license": "CC-BY-4.0 for author-derived data; retained source terms in DATA.md",
       "provenance": "Author-collected public repository metadata and derived analyses; see DATA.md."
+    },
+    {
+      "path": "results/calibration/anticipation_corrected_summary.json",
+      "sha256": "501d39f37f5b53e5e37060b6bcb9148658b5b6cc4f43fb3dbb23bc458848570b",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "501d39f37f5b53e5e37060b6bcb9148658b5b6cc4f43fb3dbb23bc458848570b"
+    },
+    {
+      "path": "results/calibration/censoring_ipcw_summary.json",
+      "sha256": "93fe1f2d9844718397c9b303d202ba5a624088f50cc313611604d86c1c7c08c4",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "93fe1f2d9844718397c9b303d202ba5a624088f50cc313611604d86c1c7c08c4"
+    },
+    {
+      "path": "results/calibration/changing_risk_sets_summary.json",
+      "sha256": "3a3a53a01c9166bd2f40ca9651adc2957a90063154f46c5e46bf4c0a1413f156",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "3a3a53a01c9166bd2f40ca9651adc2957a90063154f46c5e46bf4c0a1413f156"
+    },
+    {
+      "path": "results/calibration/competing_removal_cif_summary.json",
+      "sha256": "93ac6a2e937876aac2b9251d2771d95277c0e6a46865aa679deb02861364187e",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "93ac6a2e937876aac2b9251d2771d95277c0e6a46865aa679deb02861364187e"
+    },
+    {
+      "path": "results/calibration/crossed_cve_repo_clusters_summary.json",
+      "sha256": "180292dc8607ff61fa592da79c2f2f701a06464ceca601348eaa84e6c3aaa8c2",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "180292dc8607ff61fa592da79c2f2f701a06464ceca601348eaa84e6c3aaa8c2"
+    },
+    {
+      "path": "results/calibration/event_time_and_cause_diagnostics.csv",
+      "sha256": "9c59acbc9ecfba4d31410fc122e19230a9df7c289f59d637e73f46c4b5f8e159",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "9c59acbc9ecfba4d31410fc122e19230a9df7c289f59d637e73f46c4b5f8e159"
+    },
+    {
+      "path": "results/calibration/null_summary.json",
+      "sha256": "215c33870d8837fc9330c04102a31c905b18ec73a6085b887c44606d90decfc9",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "215c33870d8837fc9330c04102a31c905b18ec73a6085b887c44606d90decfc9"
+    },
+    {
+      "path": "results/calibration/reentry_current_state_summary.json",
+      "sha256": "9b19eb1af604469d05a731492eb7b2f58e96020480da355e01bd68abe866eede",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "9b19eb1af604469d05a731492eb7b2f58e96020480da355e01bd68abe866eede"
+    },
+    {
+      "path": "results/calibration/replicates.csv",
+      "sha256": "211e51acb9df308dd71ef59d063040861ab886770c8c38df7685ae9da9bfac0d",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "211e51acb9df308dd71ef59d063040861ab886770c8c38df7685ae9da9bfac0d"
+    },
+    {
+      "path": "results/calibration/staggered_heterogeneous_summary.json",
+      "sha256": "081f29b4f75f8cb660edff4d165995f992b62e35102d4af1d59f4c9ecfb526d8",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "081f29b4f75f8cb660edff4d165995f992b62e35102d4af1d59f4c9ecfb526d8"
+    },
+    {
+      "path": "results/calibration/summary.json",
+      "sha256": "d1f27cb25a83c879e12d2e8dfb081cf8915680253c8c051db7dcaecf1924c0dc",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "55ac08a4d536de79f4a18da2da1a9d9d67d7f16f22ba3b01f531446fb1e021b8",
+      "projection": "Retained statistical results, environment and configuration hash; administrative flags and path-dependent code metadata omitted."
+    },
+    {
+      "path": "results/measurement/variant_differences.json",
+      "sha256": "a3965238fd34cc968b7675f389468985e09c6e20342c385746305c8f2c291bec",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "a3965238fd34cc968b7675f389468985e09c6e20342c385746305c8f2c291bec"
+    },
+    {
+      "path": "results/observability/state_summary.csv",
+      "sha256": "4a333ce6fbb5afe38d9b0a5007d2353c03678cd7abd438eff00a6a12218ae477",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "4a333ce6fbb5afe38d9b0a5007d2353c03678cd7abd438eff00a6a12218ae477"
+    },
+    {
+      "path": "results/precision/scenarios.csv",
+      "sha256": "b7d277b464ee0f1b972b3f569258f91838a0716a8d22f7cba78b244546c5ff5d",
+      "license": "CC-BY-4.0 for author-derived research outputs; see DATA.md",
+      "provenance": "Original recorded Monte Carlo calibration or derived empirical-analysis result, included with explicit author authorization.",
+      "source_sha256": "b7d277b464ee0f1b972b3f569258f91838a0716a8d22f7cba78b244546c5ff5d"
     }
-  ]
+  ],
+  "scientific_source_hashes": {
+    "calibration_driver": "e8e858e66b35f3c803be607f81eba459d045d120d5f7f76ace0573c9a2bcde31",
+    "estimators": "19bd63a242e88890ae6b837fb24993fb4e022c64105ba25f2e9536c123ecebcc",
+    "process_generator": "70f2254653d8a00c4e71649d665b966c051d03d2fa8edc448a0db57d406f3c3d"
+  }
 }
