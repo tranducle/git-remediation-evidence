@@ -1,0 +1,5 @@
+experiment_id,stratum,n_exposed_cve_clusters,n_unexposed_cve_clusters,n_total_cve_clusters,n_repositories,n_observations,below_25_exposed_threshold
+E3,maven,10,1073,1081,3572,23521,True
+E3,npm_pypi,7,2658,2664,6726,51152,True
+E3,pooled_all_ecosystems,17,3721,3735,10291,74673,True
+E3,maven_minus_npm_pypi,17,3721,3735,10291,74673,True

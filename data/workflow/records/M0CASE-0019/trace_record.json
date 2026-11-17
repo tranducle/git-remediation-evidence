@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0019",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2026-4053",
+  "advisory_time_utc": "2026-06-23T18:34:45+00:00",
+  "fix_commit_time_utc": "2026-11-15T06:47:19+00:00",
+  "pr_merged_at_utc": "2026-11-15T06:47:19+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 18668c8dacdb (2026-11-15T06:47:19+00:00): fix(version): do not crash on prerelease bump of a dev release (#11217); commit 20da0fc94475 (2026-11-15T06:25:26+00:00): fix(config): report the setting name for invalid integer values from environment variables (#11149)"
+}

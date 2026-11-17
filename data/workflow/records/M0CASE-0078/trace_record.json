@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0078",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-74m5-2c7w-9w3x",
+  "advisory_time_utc": "2023-02-14T09:07:28+00:00",
+  "fix_commit_time_utc": "2023-04-17T12:04:13+00:00",
+  "pr_merged_at_utc": "2023-04-17T12:04:13+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit d4dbe51c1ed9 (2023-04-17T12:04:13+00:00): Merge pull request #1 from K-villain/feature/addSecretType"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0070",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-fqxc-pvf8-2w9v",
+  "advisory_time_utc": "2022-05-23T17:28:13+00:00",
+  "fix_commit_time_utc": "2022-11-09T15:33:29+00:00",
+  "pr_merged_at_utc": "2022-11-09T15:33:29+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit f9194345083e (2022-11-09T15:33:29+00:00): Make OSSFileSystem works again (#1723); commit 1d05ab5a257d (2022-11-07T18:23:22+00:00): Pin pytest-xdist to 2.5.0 (#1728)"
+}

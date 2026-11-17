@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0043",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-vqf4-7m7x-wgfc",
+  "advisory_time_utc": "2025-11-26T22:56:13+00:00",
+  "fix_commit_time_utc": "2026-05-15T06:00:46+00:00",
+  "pr_merged_at_utc": "2026-05-15T06:00:46+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 335bd9313698 (2026-05-15T06:00:46+00:00): Merge pull request #8377 from odisseus/patch-1; commit 32fc056dae32 (2026-05-12T14:02:55+00:00): Merge pull request #8363 from scalameta/dependabot/npm_and_yarn/website/babel/plugin-transform-modules-systemjs-7.29.4"
+}

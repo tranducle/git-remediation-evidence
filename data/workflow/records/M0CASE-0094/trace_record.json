@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0094",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-fgcw-684q-jj6r",
+  "advisory_time_utc": "2026-04-02T16:13:03+00:00",
+  "fix_commit_time_utc": "2026-09-25T08:37:33+00:00",
+  "pr_merged_at_utc": "2026-09-25T08:37:33+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit c945dabfb46c (2026-09-25T08:37:33+00:00): Merge pull request #54 from WildlifeDatasets/typing; commit 1556f55d2cdd (2026-09-24T05:26:30+00:00): Merge pull request #53 from WildlifeDatasets/typing_collectors"
+}

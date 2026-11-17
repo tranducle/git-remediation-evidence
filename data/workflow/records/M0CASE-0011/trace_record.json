@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0011",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2026-130",
+  "advisory_time_utc": "2023-12-01T03:26:59+00:00",
+  "fix_commit_time_utc": "2024-05-28T23:24:56+00:00",
+  "pr_merged_at_utc": "2024-05-28T23:24:56+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 9f62eef4ab04 (2024-05-28T23:24:56+00:00): change default entry db function; commit fcca453dbc1c (2024-05-28T23:18:22+00:00): add better custom entry db retrieval"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0111",
+  "ecosystem": "npm",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-2fvv-qxrq-7jq6",
+  "advisory_time_utc": "2022-08-10T17:09:45+00:00",
+  "fix_commit_time_utc": "",
+  "pr_merged_at_utc": "",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "NO_POST_ANCHOR_COMMIT_OR_MISSING_SNAPSHOT"
+}

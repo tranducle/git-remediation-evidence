@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0050",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-q6gh-6v2r-hjv3",
+  "advisory_time_utc": "2026-04-28T11:45:52+00:00",
+  "fix_commit_time_utc": "2026-10-25T11:38:51+00:00",
+  "pr_merged_at_utc": "2026-10-25T11:38:51+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 23f7a2568c3d (2026-10-25T11:38:51+00:00): Update common files (#916); commit 3f6ecf26a178 (2026-10-13T14:59:33+00:00): chore: Bump version to 5.2.1-SNAPSHOT"
+}

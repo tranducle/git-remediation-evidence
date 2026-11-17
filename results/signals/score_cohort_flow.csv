@@ -1,0 +1,5 @@
+experiment_id,cohort_id,signal_type,n_total,n_excluded_pre_poc,n_eligible,n_observed_support,n_unknown_missing,n_repositories,n_cves,n_calendar_shocks,few_calendar_shocks_warning
+E1,7,verified_cutover_shock,2333,540,1793,312,1481,1306,286,3,True
+E1,29,verified_cutover_shock,2421,549,1872,321,1551,1331,285,3,True
+E1,51,verified_cutover_shock,2354,497,1857,316,1541,1324,287,3,True
+E1,never_treated,never_crossing_control,67565,1398,66167,12596,53571,9579,3429,3,True

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0063",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-rrw2-px9j-qffj",
+  "advisory_time_utc": "2025-09-04T18:33:00+00:00",
+  "fix_commit_time_utc": "2026-01-14T15:43:17+00:00",
+  "pr_merged_at_utc": "2026-01-14T15:43:17+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 6e9ac72cbb58 (2026-01-14T15:43:17+00:00): dependency updates; commit 6b1ae190be87 (2026-01-14T12:45:00+00:00): Merge pull request #164 from lhns/update/munit-1.0.4"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "m0_automated_trace_summary.v1",
+  "construct_version": "m0-automated-trace-v4.0-rev4",
+  "mode_label": "OFFICIAL_EMPIRICAL_REV4_AUTOMATED",
+  "is_synthetic": false,
+  "author_type": "deterministic_automated_trace_classifier",
+  "human_attestation": false,
+  "human_validated_claims_withdrawn": true,
+  "recorded_at_utc": "2026-11-16T09:14:51.966787+00:00",
+  "sample_size": 120,
+  "population_weight_total": 74673.0,
+  "cohen_kappa_unweighted": 0.023894,
+  "cohen_kappa_weighted": 0.024978,
+  "agreement_observed": 0.333333,
+  "provenance_verified": true,
+  "budget_check": {
+    "prior_v1_hours": 0.0,
+    "m0_hours": 0.0,
+    "total_person_hours": 0.0,
+    "within_240h_budget": true,
+    "within_rev4_zero_human_cap": true,
+    "rev4_person_hour_cap": 0.0
+  },
+  "pooled_proportions": {
+    "advisory_precedes_pr_and_merge": 0.008677,
+    "scheduled_bot_maintenance": 0.0,
+    "manual_maintainer_commit_no_pr": 0.017393,
+    "unchanged_with_config": 0.97393,
+    "discordant_timing": 0.0,
+    "insufficient_public_trace": 0.0
+  },
+  "artifacts": {
+    "trace_estimates": "data/workflow/trace_estimates.csv",
+    "trace_summary": "data/workflow/trace_summary.json"
+  }
+}

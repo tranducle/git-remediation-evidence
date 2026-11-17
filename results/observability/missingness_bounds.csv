@@ -1,0 +1,15 @@
+outcome_name,stratum_type,stratum_value,n_total,n_observed,n_missing,missing_rate,complete_case_estimate,manski_lower_bound,manski_upper_bound,bound_width,bounds_include_zero
+active_response_13w,overall,ALL,74673,13785,60888,0.815395,0.022488,0.004151,0.819547,0.815396,False
+active_response_13w,treated,1,10233,915,9318,0.910583,0.086339,0.00772,0.918304,0.910584,False
+active_response_13w,treated,0,64440,12870,51570,0.800279,0.017949,0.003585,0.803864,0.800279,False
+active_response_13w,ecosystem,Maven,23521,1524,21997,0.935207,0.038058,0.002466,0.937673,0.935207,False
+active_response_13w,ecosystem,PyPI,36921,5458,31463,0.852171,0.012642,0.001869,0.85404,0.852171,False
+active_response_13w,ecosystem,npm,14231,6803,7428,0.521959,0.0269,0.012859,0.534818,0.521959,False
+active_response_13w,contrast,treated_minus_control,74673,13785,60888,0.815395,0.06839,-0.796144,0.914719,1.710863,True
+pooled_response_13w,overall,ALL,74673,13785,60888,0.815395,0.031919,0.005892,0.821287,0.815395,False
+pooled_response_13w,treated,1,10233,915,9318,0.910583,0.119126,0.010652,0.921235,0.910583,False
+pooled_response_13w,treated,0,64440,12870,51570,0.800279,0.025719,0.005137,0.805416,0.800279,False
+pooled_response_13w,ecosystem,Maven,23521,1524,21997,0.935207,0.038058,0.002466,0.937673,0.935207,False
+pooled_response_13w,ecosystem,PyPI,36921,5458,31463,0.852171,0.025284,0.003738,0.855909,0.852171,False
+pooled_response_13w,ecosystem,npm,14231,6803,7428,0.521959,0.035867,0.017146,0.539105,0.521959,False
+pooled_response_13w,contrast,treated_minus_control,74673,13785,60888,0.815395,0.093407,-0.794764,0.916098,1.710862,True

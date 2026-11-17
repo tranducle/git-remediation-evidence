@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0035",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-8hc5-rmgf-qx6p",
+  "advisory_time_utc": "2023-11-29T05:44:26+00:00",
+  "fix_commit_time_utc": "2024-05-24T12:12:21+00:00",
+  "pr_merged_at_utc": "2024-05-24T12:12:21+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 4c8abfb61fb8 (2024-05-24T12:12:21+00:00): Temporarily disable Snyk; commit b3c0b4219ca8 (2024-05-23T18:42:55+00:00): Translated using Weblate (Georgian) (#29588)"
+}

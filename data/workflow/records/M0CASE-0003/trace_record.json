@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0003",
+  "ecosystem": "Maven",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "GHSA-p6xc-xr62-6r2g",
+  "advisory_time_utc": "2021-12-19T13:07:37+00:00",
+  "fix_commit_time_utc": "2022-03-21T08:34:19+00:00",
+  "pr_merged_at_utc": "2022-03-21T08:34:19+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 06329a0b0be1 (2022-03-21T08:34:19+00:00): Merge pull request #1062 from siddhi-io/revert-1061-master; commit 5aa00d63bccb (2022-03-21T08:34:02+00:00): Merge pull request #1063 from siddhi-io/revert-1060-master"
+}

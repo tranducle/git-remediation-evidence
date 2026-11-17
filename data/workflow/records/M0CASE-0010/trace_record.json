@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0010",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2026-12",
+  "advisory_time_utc": "2026-02-04T11:33:29+00:00",
+  "fix_commit_time_utc": "2026-07-03T15:34:30+00:00",
+  "pr_merged_at_utc": "2026-07-03T15:34:30+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 59ac77ee6f56 (2026-07-03T15:34:30+00:00): Update broken logo in README"
+}

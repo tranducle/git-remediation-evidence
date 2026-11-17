@@ -1,0 +1,1243 @@
+{
+  "schema_version": "remediation_measurement_summary.v1",
+  "generated_on": "2026-11-16",
+  "frozen_pipeline_receipt_sha256": "d419ecafd0b5818525dd54f3b14cbe79b8fe8fef080b5b301ca313ff3a15cf84",
+  "c0_observability_and_manski": {
+    "n_total": 74673,
+    "n_recoverable": 13785,
+    "recoverability_rate": 0.18460487726487484,
+    "n_unknown": 60888,
+    "unknown_rate": 0.8153951227351252,
+    "by_ecosystem": {
+      "npm": {
+        "n_total": 14231,
+        "n_recoverable": 6803,
+        "recoverability_rate": 0.47804089663410865
+      },
+      "pypi": {
+        "n_total": 36921,
+        "n_recoverable": 5458,
+        "recoverability_rate": 0.147829148722949
+      },
+      "maven": {
+        "n_total": 23521,
+        "n_recoverable": 1524,
+        "recoverability_rate": 0.06479316355597126
+      }
+    },
+    "unknown_censor_reasons": {
+      "baseline_project_unparsed_or_ambiguous": 30134,
+      "range without recorded resolved version": 14458,
+      "conditional or incomplete dependency evidence": 6384,
+      "separate direct-scope alternatives; no installed version inferred": 2432,
+      "incomplete direct dependency set": 2126,
+      "parent dependencyManagement is not a consuming project unit": 1330,
+      "ValueError: Clone byte limit (90000000) exceeded": 1080,
+      "complete direct dependency set": 852,
+      "baseline_not_affected": 750,
+      "missing_pre_fix_anchor": 447,
+      "conflicting lock evidence": 171,
+      "TimeoutError: Clone timeout (35s) exceeded": 158,
+      "exact recorded declaration": 144,
+      "manifest and lock conflict": 100,
+      "post-event version or consistency is unknown": 97,
+      "RuntimeError: Git read failed: fatal: your current branch 'main' does not have any commits yet\n": 77,
+      "RuntimeError: Git clone failed (128)": 50,
+      "RuntimeError: Git read failed: fatal: your current branch 'master' does not have any commits yet\n": 26,
+      "missing_parsed_project_snapshot": 22,
+      "": 14,
+      "manifest edit does not establish a fixed-version requirement": 14,
+      "new coordinates require successor review": 7,
+      "direct removal candidate requires successor/retained-use audit": 5,
+      "post-event dependency evidence incomplete": 4,
+      "administrative_censoring_before_180d": 3,
+      "recorded lock version": 2,
+      "RuntimeError: Git read failed: =<n>\n    --no-min-parents\n    --max-parents=<n>\n    --no-max-parents\n    --remove-empty\n    --all\n    --branches\n    --tags\n    --remotes\n    --stdin\n    --exclude-hidden=[fetch|recei": 1
+    },
+    "baseline_missing_reasons_d1_records": {
+      "none": 72834,
+      "RuntimeError: Git read failed: =<n>\n    --no-min-parents\n    --max-parents=<n>\n    --no-max-parents\n    --remove-empty\n    --all\n    --branches\n    --tags\n    --remotes\n    --stdin\n    --exclude-hidden=[fetch|recei": 1,
+      "missing_pre_fix_anchor": 447,
+      "RuntimeError: Git read failed: fatal: your current branch 'master' does not have any commits yet\n": 26,
+      "RuntimeError: Git clone failed (128)": 50,
+      "ValueError: Clone byte limit (90000000) exceeded": 1080,
+      "TimeoutError: Clone timeout (35s) exceeded": 158,
+      "RuntimeError: Git read failed: fatal: your current branch 'main' does not have any commits yet\n": 77
+    },
+    "manski_bounds": {
+      "c0_pre_bot_contrast": {
+        "n_treated_total": 9295,
+        "n_treated_observed": 861,
+        "treated_recoverability": 0.09263044647660032,
+        "treated_complete_case_mean": 0.08826945412311266,
+        "n_control_total": 65378,
+        "n_control_observed": 12924,
+        "control_recoverability": 0.19768117715439446,
+        "control_complete_case_mean": 0.018183225007737544,
+        "recoverability_gap_treated_minus_control": -0.10505073067779414,
+        "complete_case_diff": 0.07008622911537511,
+        "manski_lower": -0.7977368652239286,
+        "manski_upper": 0.9119515111450766
+      },
+      "k4_paired_p_minus_y_all_74673": {
+        "n_total": 74673,
+        "n_recoverable": 13785,
+        "n_unknown": 60888,
+        "p_ln_mean_all": 0.4938732875336467,
+        "y_ver_min_if_unknown_1": 0.8195599480401216,
+        "y_ver_max_if_unknown_0": 0.004164825304996451,
+        "manski_lower_p_minus_y": -0.3256866605064749,
+        "manski_upper_p_minus_y": 0.4897084622286502
+      },
+      "e1_epss_zero_pre_poc": {
+        "n_treated_total": 5522,
+        "n_treated_observed": 968,
+        "treated_recoverability": 0.1752988047808765,
+        "treated_complete_case_mean": 0.04132231404958678,
+        "n_control_total": 66167,
+        "n_control_observed": 12596,
+        "control_recoverability": 0.19036679915970198,
+        "control_complete_case_mean": 0.02175293744045729,
+        "recoverability_gap_treated_minus_control": -0.015067994378825472,
+        "complete_case_diff": 0.01956937660912949,
+        "manski_lower": -0.8065304856494865,
+        "manski_upper": 0.827803910409935
+      },
+      "e2_ghsa_curation": {
+        "n_treated_total": 55644,
+        "n_treated_observed": 10920,
+        "treated_recoverability": 0.19624757386241104,
+        "treated_complete_case_mean": 0.025824175824175823,
+        "n_control_total": 19029,
+        "n_control_observed": 3031,
+        "control_recoverability": 0.15928319932734247,
+        "control_complete_case_mean": 0.014846585285384361,
+        "recoverability_gap_treated_minus_control": 0.03696437453506857,
+        "complete_case_diff": 0.010977590538791462,
+        "manski_lower": -0.8380136804235089,
+        "manski_upper": 0.8064555463867377
+      },
+      "e3_kev_listing": {
+        "n_treated_total": 831,
+        "n_treated_observed": 83,
+        "treated_recoverability": 0.09987966305655836,
+        "treated_complete_case_mean": 0.03614457831325301,
+        "n_control_total": 73842,
+        "n_control_observed": 13868,
+        "control_recoverability": 0.1878063974431895,
+        "control_complete_case_mean": 0.023363138159792327,
+        "recoverability_gap_treated_minus_control": -0.08792673438663114,
+        "complete_case_diff": 0.012781440153460683,
+        "manski_lower": -0.8129712410643195,
+        "manski_upper": 0.8993426984359326
+      }
+    }
+  },
+  "k4_clean_vs_composite_and_a0": {
+    "clean_recoverable_strata": {
+      "recoverable_all": {
+        "n": 13785,
+        "p_ln_mean": 0.313746826260428,
+        "y_ver_mean": 0.022560754443235402,
+        "p_ln_count": 4325,
+        "y_ver_count": 311,
+        "passive_git_state3_or_elig_count": 365,
+        "passive_git_state3_or_elig_rate": 0.026478055857816468,
+        "repo_cve_ci": {
+          "n": 13785,
+          "n_cluster_a": 3355,
+          "n_cluster_b": 2337,
+          "estimate": 0.2911860718171926,
+          "se": 0.019043452423494648,
+          "lower": 0.2538422419306784,
+          "upper": 0.3285299017037068,
+          "p_value": 2.2368890938677454e-50
+        },
+        "owner_cve_ci": {
+          "n": 13785,
+          "n_cluster_a": 3190,
+          "n_cluster_b": 2337,
+          "estimate": 0.2911860718171926,
+          "se": 0.019156779616841275,
+          "lower": 0.25362000956777814,
+          "upper": 0.328752134066607,
+          "p_value": 7.882727857823654e-50
+        }
+      },
+      "recoverable_in_range": {
+        "n": 4028,
+        "p_ln_mean": 0.9716981132075472,
+        "y_ver_mean": 0.024081429990069514,
+        "p_ln_count": 3914,
+        "y_ver_count": 97,
+        "passive_git_state3_or_elig_count": 363,
+        "passive_git_state3_or_elig_rate": 0.09011916583912612,
+        "repo_cve_ci": {
+          "n": 4028,
+          "n_cluster_a": 995,
+          "n_cluster_b": 1073,
+          "estimate": 0.9476166832174776,
+          "se": 0.013321130061527629,
+          "lower": 0.9214759178885531,
+          "upper": 0.9737574485464021,
+          "p_value": 0.0
+        },
+        "owner_cve_ci": {
+          "n": 4028,
+          "n_cluster_a": 978,
+          "n_cluster_b": 1073,
+          "estimate": 0.9476166832174776,
+          "se": 0.01332477769948469,
+          "lower": 0.9214682052553665,
+          "upper": 0.9737651611795887,
+          "p_value": 0.0
+        }
+      },
+      "recoverable_out_of_range": {
+        "n": 9757,
+        "p_ln_mean": 0.04212360356667008,
+        "y_ver_mean": 0.021932971200163985,
+        "p_ln_count": 411,
+        "y_ver_count": 214,
+        "passive_git_state3_or_elig_count": 2,
+        "passive_git_state3_or_elig_rate": 0.00020498103925386903,
+        "repo_cve_ci": {
+          "n": 9757,
+          "n_cluster_a": 2534,
+          "n_cluster_b": 2039,
+          "estimate": 0.0201906323665061,
+          "se": 0.012348884783457281,
+          "lower": -0.004027119793392549,
+          "upper": 0.04440838452640475,
+          "p_value": 0.10219998609697194
+        },
+        "owner_cve_ci": {
+          "n": 9757,
+          "n_cluster_a": 2403,
+          "n_cluster_b": 2039,
+          "estimate": 0.0201906323665061,
+          "se": 0.012354069079460519,
+          "lower": -0.004037286864989019,
+          "upper": 0.04441855159800122,
+          "p_value": 0.10234390989165801
+        }
+      },
+      "recoverable_exact_pinned": {
+        "n": 4810,
+        "p_ln_mean": 0.07193347193347194,
+        "y_ver_mean": 0.033264033264033266,
+        "p_ln_count": 346,
+        "y_ver_count": 160,
+        "passive_git_state3_or_elig_count": 0,
+        "passive_git_state3_or_elig_rate": 0.0,
+        "repo_cve_ci": {
+          "n": 4810,
+          "n_cluster_a": 970,
+          "n_cluster_b": 1506,
+          "estimate": 0.03866943866943867,
+          "se": 0.02460582557079404,
+          "lower": -0.009617406397326167,
+          "upper": 0.08695628373620351,
+          "p_value": 0.11637994883557481
+        },
+        "owner_cve_ci": {
+          "n": 4810,
+          "n_cluster_a": 914,
+          "n_cluster_b": 1506,
+          "estimate": 0.03866943866943867,
+          "se": 0.02462611762789024,
+          "lower": -0.009660935098785052,
+          "upper": 0.08699981243766239,
+          "p_value": 0.11670081979327752
+        }
+      },
+      "recoverable_npm": {
+        "n": 6803,
+        "p_ln_mean": 0.3413200058797589,
+        "y_ver_mean": 0.027046891077465825,
+        "p_ln_count": 2322,
+        "y_ver_count": 184,
+        "passive_git_state3_or_elig_count": 203,
+        "passive_git_state3_or_elig_rate": 0.029839776569160665,
+        "repo_cve_ci": {
+          "n": 6803,
+          "n_cluster_a": 2405,
+          "n_cluster_b": 1043,
+          "estimate": 0.3142731148022931,
+          "se": 0.020703731471452016,
+          "lower": 0.2736473577168507,
+          "upper": 0.35489887188773545,
+          "p_value": 3.6222196698656165e-47
+        },
+        "owner_cve_ci": {
+          "n": 6803,
+          "n_cluster_a": 2296,
+          "n_cluster_b": 1043,
+          "estimate": 0.3142731148022931,
+          "se": 0.020834727488596185,
+          "lower": 0.27339031166797795,
+          "upper": 0.3551559179366082,
+          "p_value": 1.1896006303818365e-46
+        }
+      },
+      "recoverable_pypi": {
+        "n": 5458,
+        "p_ln_mean": 0.36460241846830344,
+        "y_ver_mean": 0.012641993404177354,
+        "p_ln_count": 1990,
+        "y_ver_count": 69,
+        "passive_git_state3_or_elig_count": 162,
+        "passive_git_state3_or_elig_rate": 0.029681201905459875,
+        "repo_cve_ci": {
+          "n": 5458,
+          "n_cluster_a": 550,
+          "n_cluster_b": 828,
+          "estimate": 0.35196042506412606,
+          "se": 0.03814034950220986,
+          "lower": 0.27704154853923185,
+          "upper": 0.42687930158902027,
+          "p_value": 5.924722491132694e-19
+        },
+        "owner_cve_ci": {
+          "n": 5458,
+          "n_cluster_a": 533,
+          "n_cluster_b": 828,
+          "estimate": 0.35196042506412606,
+          "se": 0.03810743951266502,
+          "lower": 0.277100908361965,
+          "upper": 0.4268199417662871,
+          "p_value": 6.0728930086115165e-19
+        }
+      },
+      "recoverable_maven": {
+        "n": 1524,
+        "p_ln_mean": 0.00853018372703412,
+        "y_ver_mean": 0.03805774278215223,
+        "p_ln_count": 13,
+        "y_ver_count": 58,
+        "passive_git_state3_or_elig_count": 0,
+        "passive_git_state3_or_elig_rate": 0.0,
+        "repo_cve_ci": {
+          "n": 1524,
+          "n_cluster_a": 400,
+          "n_cluster_b": 470,
+          "estimate": -0.02952755905511811,
+          "se": 0.011899871151110753,
+          "lower": -0.05292184056902818,
+          "upper": -0.006133277541208036,
+          "p_value": 0.013500175242975303
+        },
+        "owner_cve_ci": {
+          "n": 1524,
+          "n_cluster_a": 367,
+          "n_cluster_b": 470,
+          "estimate": -0.02952755905511811,
+          "se": 0.011888965148250146,
+          "lower": -0.05290681338392077,
+          "upper": -0.006148304726315456,
+          "p_value": 0.013452713106323424
+        }
+      }
+    },
+    "composite_74673_true_cve_ci": {
+      "n": 74673,
+      "n_cluster_a": 10291,
+      "n_cluster_b": 3735,
+      "estimate": 0.4576888567487579,
+      "se": 0.016943865533587527,
+      "lower": 0.4244687223984651,
+      "upper": 0.49090899109905073,
+      "p_value": 6.111486592312386e-147
+    },
+    "composite_74673_owner_cve_ci": {
+      "n": 74673,
+      "n_cluster_a": 8744,
+      "n_cluster_b": 3735,
+      "estimate": 0.4576888567487579,
+      "se": 0.018896391337603062,
+      "lower": 0.42064060127679825,
+      "upper": 0.4947371122207176,
+      "p_value": 1.6865191856382198e-120
+    },
+    "git_naive_3923_flips_forensics": {
+      "n_flips_total": 3923,
+      "n_flips_recoverable_state0": 3764,
+      "n_flips_recoverable_state0_elig_only": 235,
+      "n_flips_recoverable_state3_lockfile": 130,
+      "n_flips_unknown_parquet_fallback": 29,
+      "n_flips_with_raw_unscrubbed_exit_1": 0,
+      "raw_unscrubbed_exit_total_74673": 63,
+      "scrubbed_exit_total_74673": 58,
+      "unscrubbed_minus_scrubbed_74673": 5,
+      "unknown_fallback_events_in_y_ver_comp": 2391,
+      "recoverable_events_in_y_ver": 311
+    },
+    "a0_ecosystem_stratified": {
+      "recoverable_13785": {
+        "pooled": {
+          "n_treated": 11046,
+          "n_control": 2739,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": -0.05086961841737597,
+            "treated_mean": 0.30363932645301467,
+            "control_mean": 0.35450894487039064,
+            "se": 0.03012390286531628,
+            "lower": -0.10994199033310925,
+            "upper": 0.0082027534983573,
+            "p_value": 0.09141432303763528,
+            "n_treated": 11046,
+            "n_control": 2739,
+            "n_cluster_a": 3355,
+            "n_cluster_b": 2337
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": 0.011752406891900227,
+            "treated_mean": 0.024895889914901322,
+            "control_mean": 0.013143483023001095,
+            "se": 0.0049124284215196394,
+            "lower": 0.0021192328631942405,
+            "upper": 0.021385580920606214,
+            "p_value": 0.016817980196331697,
+            "n_treated": 11046,
+            "n_control": 2739,
+            "n_cluster_a": 3355,
+            "n_cluster_b": 2337
+          },
+          "a0_git_minus_proxy_shift": 0.0626220253092762,
+          "proxy_minus_git_shift": -0.0626220253092762
+        },
+        "npm": {
+          "n_treated": 6611,
+          "n_control": 192,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": -0.018579356375737432,
+            "treated_mean": 0.34079564362426257,
+            "control_mean": 0.359375,
+            "se": 0.09512451452011524,
+            "lower": -0.20523679178024562,
+            "upper": 0.16807807902877075,
+            "p_value": 0.8451835125472913,
+            "n_treated": 6611,
+            "n_control": 192,
+            "n_cluster_a": 2405,
+            "n_cluster_b": 1043
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": 0.01711320778500479,
+            "treated_mean": 0.027529874451671456,
+            "control_mean": 0.010416666666666666,
+            "se": 0.012306292367655292,
+            "lower": -0.007034731200784919,
+            "upper": 0.041261146770794496,
+            "p_value": 0.1646417542728695,
+            "n_treated": 6611,
+            "n_control": 192,
+            "n_cluster_a": 2405,
+            "n_cluster_b": 1043
+          },
+          "a0_git_minus_proxy_shift": 0.03569256416074222,
+          "proxy_minus_git_shift": -0.03569256416074222
+        },
+        "pypi": {
+          "n_treated": 2958,
+          "n_control": 2500,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": 0.00849222447599729,
+            "treated_mean": 0.3684922244759973,
+            "control_mean": 0.36,
+            "se": 0.010505698108393132,
+            "lower": -0.0121440599226267,
+            "upper": 0.02912850887462128,
+            "p_value": 0.4192423581875152,
+            "n_treated": 2958,
+            "n_control": 2500,
+            "n_cluster_a": 550,
+            "n_cluster_b": 828
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": -0.00029154834347532195,
+            "treated_mean": 0.012508451656524679,
+            "control_mean": 0.0128,
+            "se": 0.0013445343824782352,
+            "lower": -0.002932609757412428,
+            "upper": 0.002349513070461784,
+            "p_value": 0.8284138774564076,
+            "n_treated": 2958,
+            "n_control": 2500,
+            "n_cluster_a": 550,
+            "n_cluster_b": 828
+          },
+          "a0_git_minus_proxy_shift": -0.008783772819472612,
+          "proxy_minus_git_shift": 0.008783772819472612
+        },
+        "maven": {
+          "n_treated": 1477,
+          "n_control": 47,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": -0.03510566271481871,
+            "treated_mean": 0.007447528774542992,
+            "control_mean": 0.0425531914893617,
+            "se": 0.02869699376327678,
+            "lower": -0.09152186606491583,
+            "upper": 0.021310540635278423,
+            "p_value": 0.22193009534976613,
+            "n_treated": 1477,
+            "n_control": 47,
+            "n_cluster_a": 400,
+            "n_cluster_b": 470
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": -0.004638499546233736,
+            "treated_mean": 0.037914691943127965,
+            "control_mean": 0.0425531914893617,
+            "se": 0.03109552360573373,
+            "lower": -0.0657700381836978,
+            "upper": 0.056493039091230324,
+            "p_value": 0.8814953575486273,
+            "n_treated": 1477,
+            "n_control": 47,
+            "n_cluster_a": 400,
+            "n_cluster_b": 470
+          },
+          "a0_git_minus_proxy_shift": 0.03046716316858497,
+          "proxy_minus_git_shift": -0.03046716316858497
+        }
+      },
+      "composite_74673": {
+        "pooled": {
+          "n_treated": 57355,
+          "n_control": 17318,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": -0.3589857999790974,
+            "treated_mean": 0.41061808037660186,
+            "control_mean": 0.7696038803556993,
+            "se": 0.017050671154440675,
+            "lower": -0.39241533737659184,
+            "upper": -0.325556262581603,
+            "p_value": 4.409368680263284e-93,
+            "n_treated": 57355,
+            "n_control": 17318,
+            "n_cluster_a": 10291,
+            "n_cluster_b": 3735
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": 0.002078086437971305,
+            "treated_mean": 0.036666376078807426,
+            "control_mean": 0.03458828964083612,
+            "se": 0.006114414509921053,
+            "lower": -0.009909831613568497,
+            "upper": 0.014066004489511107,
+            "p_value": 0.7339759621790634,
+            "n_treated": 57355,
+            "n_control": 17318,
+            "n_cluster_a": 10291,
+            "n_cluster_b": 3735
+          },
+          "a0_git_minus_proxy_shift": 0.3610638864170687,
+          "proxy_minus_git_shift": -0.3610638864170687
+        },
+        "npm": {
+          "n_treated": 13863,
+          "n_control": 368,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": -0.08229404827990683,
+            "treated_mean": 0.42314073432878885,
+            "control_mean": 0.5054347826086957,
+            "se": 0.08328418860161553,
+            "lower": -0.2456927283294228,
+            "upper": 0.08110463176960914,
+            "p_value": 0.3232971637578319,
+            "n_treated": 13863,
+            "n_control": 368,
+            "n_cluster_a": 4206,
+            "n_cluster_b": 1202
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": 0.0010800567039570448,
+            "treated_mean": 0.017384404530044,
+            "control_mean": 0.016304347826086956,
+            "se": 0.008792210179010263,
+            "lower": -0.01616974259276478,
+            "upper": 0.01832985600067887,
+            "p_value": 0.9022524053876342,
+            "n_treated": 13863,
+            "n_control": 368,
+            "n_cluster_a": 4206,
+            "n_cluster_b": 1202
+          },
+          "a0_git_minus_proxy_shift": 0.08337410498386387,
+          "proxy_minus_git_shift": -0.08337410498386387
+        },
+        "pypi": {
+          "n_treated": 20603,
+          "n_control": 16318,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": 0.006477741206199705,
+            "treated_mean": 0.8108042518079891,
+            "control_mean": 0.8043265106017894,
+            "se": 0.006068706266030417,
+            "lower": -0.005426546259747419,
+            "upper": 0.01838202867214683,
+            "p_value": 0.2859669212129187,
+            "n_treated": 20603,
+            "n_control": 16318,
+            "n_cluster_a": 2521,
+            "n_cluster_b": 1465
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": 0.013383787306399997,
+            "treated_mean": 0.04868223074309567,
+            "control_mean": 0.03529844343669567,
+            "se": 0.009236540212046843,
+            "lower": -0.004734477947342098,
+            "upper": 0.03150205256014209,
+            "p_value": 0.14755051017982765,
+            "n_treated": 20603,
+            "n_control": 16318,
+            "n_cluster_a": 2521,
+            "n_cluster_b": 1465
+          },
+          "a0_git_minus_proxy_shift": 0.0069060461002002915,
+          "proxy_minus_git_shift": -0.0069060461002002915
+        },
+        "maven": {
+          "n_treated": 22889,
+          "n_control": 632,
+          "tc_p_ln": {
+            "estimable": true,
+            "estimate": 0.015916591961978307,
+            "treated_mean": 0.0428153261391935,
+            "control_mean": 0.02689873417721519,
+            "se": 0.010108256900244581,
+            "lower": -0.003917455255611848,
+            "upper": 0.03575063917956846,
+            "p_value": 0.11563868963881054,
+            "n_treated": 22889,
+            "n_control": 632,
+            "n_cluster_a": 3572,
+            "n_cluster_b": 1081
+          },
+          "tc_y_ver": {
+            "estimable": true,
+            "estimate": 0.010630209857037071,
+            "treated_mean": 0.03752894403425226,
+            "control_mean": 0.02689873417721519,
+            "se": 0.009808104538304996,
+            "lower": -0.008614889515446682,
+            "upper": 0.029875309229520825,
+            "p_value": 0.2786869618983962,
+            "n_treated": 22889,
+            "n_control": 632,
+            "n_cluster_a": 3572,
+            "n_cluster_b": 1081
+          },
+          "a0_git_minus_proxy_shift": -0.0052863821049412354,
+          "proxy_minus_git_shift": 0.0052863821049412354
+        }
+      }
+    }
+  },
+  "k1_e1_cutover_ipw_and_clustering": {
+    "pooled_in_d1_treated_or_org": {
+      "estimate": 0.016854252228045423,
+      "repo_cve_ci": {
+        "se": 0.009234771758163245,
+        "lower": -0.0012551940135869105,
+        "upper": 0.034963698469677756,
+        "p_value": 0.06811900864948896
+      },
+      "owner_cve_ci": {
+        "se": 0.009212515870016515,
+        "lower": -0.0012115500751650743,
+        "upper": 0.03492005453125592,
+        "p_value": 0.06745617658643088
+      },
+      "treated_raw_mean_recoverable": 0.037934668071654375,
+      "control_raw_mean_recoverable": 0.021117713184519032,
+      "relative_lift_vs_e1_control_pct": 79.81097233767213,
+      "relative_lift_vs_all_recoverable_base_pct": 74.9470538592278
+    },
+    "pure_model_switch_excluding_organic": {
+      "n_used_dyads": 12984,
+      "n_repos": 3225,
+      "n_cves": 2195,
+      "estimate": 0.012859061308408441,
+      "repo_cve_ci": {
+        "se": 0.011147121668583932,
+        "lower": -0.009000955101829368,
+        "upper": 0.03471907771864625,
+        "p_value": 0.24879935150196308
+      },
+      "owner_cve_ci": {
+        "se": 0.011113359528672182,
+        "lower": -0.008934745998308445,
+        "upper": 0.03465286861512533,
+        "p_value": 0.24736507498762822
+      }
+    },
+    "persisted_model_switch_only": {
+      "n_used_dyads": 12964,
+      "estimate": 0.014092591106884487,
+      "repo_cve_ci": {
+        "se": 0.011519193103362548,
+        "lower": -0.008497114346171538,
+        "upper": 0.036682296559940514,
+        "p_value": 0.22131011484401703
+      }
+    },
+    "observable_ipw_pooled": {
+      "estimate": 0.0325525059551717,
+      "repo_cve_ci": {
+        "se": 0.024876989276003455,
+        "lower": -0.01623142847712366,
+        "upper": 0.08133644038746707,
+        "p_value": 0.19082267990562693
+      }
+    },
+    "observable_ipw_pure_model_switch": {
+      "estimate": 0.03632767556560199,
+      "repo_cve_ci": {
+        "se": 0.04219913335892765,
+        "lower": -0.04642675873144091,
+        "upper": 0.11908210986264489,
+        "p_value": 0.38940752762290287
+      }
+    }
+  },
+  "k2_e2_e3_m0_and_holm": {
+    "e2_ghsa_unweighted": {
+      "estimate": 0.011492774615181216,
+      "repo_cve_ci": {
+        "se": 0.004640100286219898,
+        "lower": 0.0023936306211446937,
+        "upper": 0.02059191860921774,
+        "p_value": 0.013325524645041508
+      },
+      "owner_cve_ci": {
+        "se": 0.004634889909233156,
+        "lower": 0.0024038480663594822,
+        "upper": 0.02058170116400295,
+        "p_value": 0.013222209244482126
+      }
+    },
+    "e2_ghsa_observable_ipw": {
+      "estimate": 0.03128434390577342,
+      "repo_cve_ci": {
+        "se": 0.014673567079080503,
+        "lower": 0.0025097719088655254,
+        "upper": 0.060058915902681316,
+        "p_value": 0.033109224046332944
+      }
+    },
+    "e2_ghsa_covariate_adjusted_ols": {
+      "valid": true,
+      "status": "ESTIMABLE",
+      "failure_reason": "",
+      "se": 0.0019643533135185053,
+      "lower": 8.294800474700813e-05,
+      "upper": 0.0077870632403376685,
+      "p_value": 0.04527043873366972,
+      "variance": 3.85868394033113e-06,
+      "df": 2336,
+      "boot_lower": null,
+      "boot_upper": null,
+      "boot_p_value": null,
+      "estimate": 0.003935005622542338
+    },
+    "e2_bot_interaction_owner_cve_ci": {
+      "estimate": -0.03039268493015157,
+      "owner_cve_ci": {
+        "se": 0.03399417566552071,
+        "lower": -0.09705458451403622,
+        "upper": 0.036269214653733076,
+        "p_value": 0.37138421677101163
+      }
+    },
+    "e3_kev_diff_owner_cve_ci": {
+      "estimate": 0.059376998113251686,
+      "owner_cve_ci": {
+        "se": 0.042448760689442276,
+        "lower": -0.04449137748416172,
+        "upper": 0.1632453737106651,
+        "p_value": 0.21138540370343165
+      }
+    },
+    "holm_stepdown_families": {
+      "H4_E1_E2_E3_E4": {
+        "E1": 0.13626874,
+        "E2": 0.03997657393512452,
+        "E3": 0.2111185,
+        "E4": 0.00452272
+      },
+      "H5a_E1_to_E4_plus_A0": {
+        "E1": 0.13626874,
+        "E2": 0.03997657393512452,
+        "E3": 0.2111185,
+        "E4": 0.00452272,
+        "A0": 5.0000000000000004e-30
+      },
+      "H5b_E1_to_E4_plus_Bot": {
+        "E1": 0.20440311,
+        "E2": 0.05330209858016603,
+        "E3": 0.422237,
+        "E4": 0.0056534,
+        "Bot": 0.422237
+      },
+      "H6_E1_to_E4_plus_A0_and_Bot": {
+        "E1": 0.20440311,
+        "E2": 0.05330209858016603,
+        "E3": 0.422237,
+        "E4": 0.0056534,
+        "A0": 6.0000000000000005e-30,
+        "Bot": 0.422237
+      }
+    },
+    "m0_forensics_and_ht_cis": {
+      "n_sampled": 120,
+      "population_weight_sum": 74673.06153341988,
+      "ht_95_cis": {
+        "unchanged_with_config": {
+          "count_n120": 117,
+          "weighted_share": 0.9739301509455542,
+          "se": 0.014914572264113753,
+          "ci95_lower": 0.9446981262324928,
+          "ci95_upper": 1.0
+        },
+        "manual_maintainer_commit_no_pr": {
+          "count_n120": 2,
+          "weighted_share": 0.01739252759870324,
+          "se": 0.012241512373336426,
+          "ci95_lower": 0.0,
+          "ci95_upper": 0.04138545115599719
+        },
+        "advisory_precedes_pr_and_merge": {
+          "count_n120": 1,
+          "weighted_share": 0.008677321455742359,
+          "se": 0.008675440405090242,
+          "ci95_lower": 0.0,
+          "ci95_upper": 0.02568087233386465
+        }
+      },
+      "unchanged_n": 117,
+      "unchanged_bot_present_n": 24,
+      "unchanged_bot_absent_n": 93,
+      "all_bot_present_n": 24,
+      "all_bot_present_unchanged_n": 24,
+      "recoverable_git_n": 25,
+      "unknown_git_n": 95,
+      "missing_snapshot_string_n": 78,
+      "merge_pr_subject_cases": [
+        {
+          "case_id": "M0CASE-0003",
+          "signal_type": "EPSS_cutover",
+          "ecosystem": "Maven",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0021",
+          "signal_type": "EPSS_cutover",
+          "ecosystem": "PyPI",
+          "final_class": "advisory_precedes_pr_and_merge"
+        },
+        {
+          "case_id": "M0CASE-0029",
+          "signal_type": "EPSS_cutover",
+          "ecosystem": "PyPI",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0033",
+          "signal_type": "GHSA_review",
+          "ecosystem": "Maven",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0039",
+          "signal_type": "GHSA_review",
+          "ecosystem": "Maven",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0043",
+          "signal_type": "GHSA_review",
+          "ecosystem": "Maven",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0055",
+          "signal_type": "GHSA_review",
+          "ecosystem": "Maven",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0063",
+          "signal_type": "GHSA_review",
+          "ecosystem": "Maven",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0078",
+          "signal_type": "GHSA_review",
+          "ecosystem": "PyPI",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0082",
+          "signal_type": "GHSA_review",
+          "ecosystem": "PyPI",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0088",
+          "signal_type": "GHSA_review",
+          "ecosystem": "PyPI",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0094",
+          "signal_type": "GHSA_review",
+          "ecosystem": "PyPI",
+          "final_class": "unchanged_with_config"
+        },
+        {
+          "case_id": "M0CASE-0109",
+          "signal_type": "GHSA_review",
+          "ecosystem": "npm",
+          "final_class": "manual_maintainer_commit_no_pr"
+        }
+      ],
+      "c0_recoverable_bot_present_n": 861,
+      "c0_recoverable_bot_present_active_n": 76,
+      "c0_recoverable_bot_present_unchanged_rate": 0.9117305458768874
+    }
+  },
+  "k3_e4_clean_recoverable_180d_and_r0": {
+    "e4_clean_180d": {
+      "candidate_removals_summary": {
+        "total_candidates": 27,
+        "direct_removal_candidates": 7,
+        "new_coordinate_candidates": 20,
+        "in_recoverable_13785": 15,
+        "routed_to_unknown": 12,
+        "out_of_range_candidates": 18,
+        "in_range_candidates": 9,
+        "rate_over_13785_plus_27": 0.0019569471624266144,
+        "rate_over_13785": 0.001958650707290533
+      },
+      "upgrade_12_pooled_recoverable": {
+        "estimable": true,
+        "n_obs": 13785,
+        "n_treated": 10818,
+        "n_control": 2967,
+        "n_events": 369,
+        "cif_treated": 0.030107765928019656,
+        "cif_control": 0.01860098179493379,
+        "cif_diff": 0.011506784133085864,
+        "repo_cve_ci": {
+          "se": 0.005094863553237705,
+          "lower": 0.0015158584544848197,
+          "upper": 0.02149770981168691,
+          "p_value": 0.024005959198550048
+        },
+        "owner_cve_ci": {
+          "se": 0.005090792044817589,
+          "lower": 0.0015238426011847488,
+          "upper": 0.02148972566498698,
+          "p_value": 0.023893524992832
+        }
+      },
+      "upgrade_12_in_range_recoverable": {
+        "estimable": true,
+        "n_obs": 4028,
+        "n_treated": 3114,
+        "n_control": 914,
+        "n_events": 107,
+        "cif_treated": 0.034215189187505136,
+        "cif_control": 0.0032822757111597373,
+        "cif_diff": 0.0309329134763454,
+        "repo_cve_ci": {
+          "se": 0.011277471454493208,
+          "lower": 0.008802528634074377,
+          "upper": 0.05306329831861642,
+          "p_value": 0.006199524790581751
+        },
+        "owner_cve_ci": {
+          "se": 0.011272883158503473,
+          "lower": 0.008811063229569392,
+          "upper": 0.05305476372312141,
+          "p_value": 0.006180550583268321
+        }
+      },
+      "upgrade_12_out_of_range_recoverable": {
+        "estimable": true,
+        "n_obs": 9757,
+        "n_treated": 7704,
+        "n_control": 2053,
+        "n_events": 262,
+        "cif_treated": 0.028428740740846586,
+        "cif_control": 0.02556840552444866,
+        "cif_diff": 0.002860335216397926,
+        "repo_cve_ci": {
+          "se": 0.005682388083039272,
+          "lower": -0.008283559044868239,
+          "upper": 0.01400422947766409,
+          "p_value": 0.6147596068373391
+        },
+        "owner_cve_ci": {
+          "se": 0.005682031684736341,
+          "lower": -0.008282860101933558,
+          "upper": 0.01400353053472941,
+          "p_value": 0.614737416850704
+        }
+      },
+      "upgrade_12_complete_horizon_pre20260504_recoverable": {
+        "estimable": true,
+        "n_obs": 10355,
+        "n_treated": 8178,
+        "n_control": 2177,
+        "n_events": 328,
+        "cif_treated": 0.03425771664668853,
+        "cif_control": 0.022081876982539522,
+        "cif_diff": 0.012175839664149007,
+        "repo_cve_ci": {
+          "se": 0.005290979437526674,
+          "lower": 0.001798828427624249,
+          "upper": 0.022552850900673764,
+          "p_value": 0.02148999663771056
+        },
+        "owner_cve_ci": {
+          "se": 0.0052831339595459425,
+          "lower": 0.0018142154866977612,
+          "upper": 0.022537463841600255,
+          "p_value": 0.021297265872573343
+        }
+      },
+      "passive_lock3_pooled_recoverable": {
+        "estimable": true,
+        "n_obs": 13785,
+        "n_treated": 10818,
+        "n_control": 2967,
+        "n_events": 158,
+        "cif_treated": 0.01135478851509836,
+        "cif_control": 0.01293739761769246,
+        "cif_diff": -0.0015826091025941003,
+        "repo_cve_ci": {
+          "se": 0.003370810798313361,
+          "lower": -0.008192701759770977,
+          "upper": 0.0050274835545827765,
+          "p_value": 0.638753256452891
+        },
+        "owner_cve_ci": {
+          "se": 0.0033739030198856206,
+          "lower": -0.008198765544519556,
+          "upper": 0.005033547339331356,
+          "p_value": 0.6390607456652435
+        }
+      },
+      "passive_lock3_in_range_recoverable": {
+        "estimable": true,
+        "n_obs": 4028,
+        "n_treated": 3114,
+        "n_control": 914,
+        "n_events": 158,
+        "cif_treated": 0.039324888695588305,
+        "cif_control": 0.04194248166251001,
+        "cif_diff": -0.0026175929669217043,
+        "repo_cve_ci": {
+          "se": 0.010725920553937385,
+          "lower": -0.023665640005133083,
+          "upper": 0.018430454071289674,
+          "p_value": 0.8072473631419399
+        },
+        "owner_cve_ci": {
+          "se": 0.010732227604871912,
+          "lower": -0.0236784634249111,
+          "upper": 0.01844327749106769,
+          "p_value": 0.8073592832924218
+        }
+      },
+      "passive_lock3_out_of_range_recoverable": {
+        "estimable": false,
+        "n_obs": 9757,
+        "n_treated": 7704,
+        "n_control": 2053,
+        "n_events": 0
+      },
+      "verified_removal_4_recoverable": {
+        "estimable": false,
+        "n_obs": 13785,
+        "n_treated": 10818,
+        "n_control": 2967,
+        "n_events": 0
+      },
+      "candidate_removal_upper_bound_pooled": {
+        "estimable": true,
+        "n_obs": 13797,
+        "n_treated": 10825,
+        "n_control": 2972,
+        "n_events": 27,
+        "cif_treated": 0.0020117843377969436,
+        "cif_control": 0.002458194704032318,
+        "cif_diff": -0.00044641036623537444,
+        "repo_cve_ci": {
+          "se": 0.0013652747409815735,
+          "lower": -0.003123686273582672,
+          "upper": 0.002230865541111923,
+          "p_value": 0.7437162660034958
+        },
+        "owner_cve_ci": {
+          "se": 0.00136475857160065,
+          "lower": -0.0031226740759596034,
+          "upper": 0.0022298533434888545,
+          "p_value": 0.7436227447568581
+        }
+      },
+      "candidate_removal_upper_bound_out_of_range": {
+        "estimable": true,
+        "n_obs": 9762,
+        "n_treated": 7707,
+        "n_control": 2055,
+        "n_events": 18,
+        "cif_treated": 0.002041733478804543,
+        "cif_control": 0.0021073477114098363,
+        "cif_diff": -6.56142326052934e-05,
+        "repo_cve_ci": {
+          "se": 0.001615673108767533,
+          "lower": -0.003234157109607547,
+          "upper": 0.0031029286443969603,
+          "p_value": 0.9676099274112762
+        },
+        "owner_cve_ci": {
+          "se": 0.0016155114672939644,
+          "lower": -0.003233840109877265,
+          "upper": 0.003102611644666678,
+          "p_value": 0.9676066883754156
+        }
+      },
+      "candidate_removal_upper_bound_in_range": {
+        "estimable": true,
+        "n_obs": 4035,
+        "n_treated": 3118,
+        "n_control": 917,
+        "n_events": 9,
+        "cif_treated": 0.0019679094481138467,
+        "cif_control": 0.0032715376226826604,
+        "cif_diff": -0.0013036281745688136,
+        "repo_cve_ci": {
+          "se": 0.0019136904350611416,
+          "lower": -0.005058951396851426,
+          "upper": 0.002451695047713799,
+          "p_value": 0.4958957805223379
+        },
+        "owner_cve_ci": {
+          "se": 0.0019139229724087034,
+          "lower": -0.005059486904155188,
+          "upper": 0.0024522305550175615,
+          "p_value": 0.4959508655497019
+        }
+      },
+      "upgrade_12_overall_by_compatibility_recoverable": {
+        "in_range_n": 4028,
+        "in_range_cif_180d": 0.027221802777155236,
+        "out_of_range_n": 9757,
+        "out_of_range_cif_180d": 0.027803247555129147,
+        "oor_minus_in_range_diff": 0.0005814447779739114,
+        "repo_cve_ci": {
+          "se": 0.010467429266612798,
+          "lower": -0.019944974969279855,
+          "upper": 0.021107864525227678,
+          "p_value": 0.9557066394757862
+        }
+      },
+      "clean_recoverable_cox_cause1_oor": {
+        "estimable": true,
+        "n_events": 369,
+        "hr": 0.8708142197384937,
+        "hr_lower": 0.3994315117343117,
+        "hr_upper": 1.8984916888659715,
+        "p_value": 0.7278433169102102
+      },
+      "clean_recoverable_fine_gray_cause1_oor": {
+        "estimable": true,
+        "n_events": 369,
+        "hr": 0.8891813459603403,
+        "hr_lower": 0.4073278496608584,
+        "hr_upper": 1.9410493700888192,
+        "p_value": 0.767996939797894
+      }
+    },
+    "r0_rc035_to_rc040": [
+      {
+        "estimand": "boundary_RC-035",
+        "exposure": "unmapped_dev_coordinate_placebo",
+        "comparator": "within_stratum_control",
+        "estimate": -0.00474366,
+        "lower": -0.00983013,
+        "upper": 0.00034281,
+        "test_status": "ESTIMABLE"
+      },
+      {
+        "estimand": "boundary_RC-036",
+        "exposure": "future_dated_shock_placebo",
+        "comparator": "within_stratum_control",
+        "estimate": 0.06268325,
+        "lower": 0.02570421,
+        "upper": 0.09966229,
+        "test_status": "ESTIMABLE"
+      },
+      {
+        "estimand": "boundary_RC-037",
+        "exposure": "unmapped_npm_placebo",
+        "comparator": "within_stratum_control",
+        "estimate": -0.00269367,
+        "lower": -0.01037332,
+        "upper": 0.00498598,
+        "test_status": "ESTIMABLE"
+      },
+      {
+        "estimand": "boundary_RC-038",
+        "exposure": "unmapped_pypi_placebo",
+        "comparator": "within_stratum_control",
+        "estimate": 0.00055674,
+        "lower": -0.00245845,
+        "upper": 0.00357194,
+        "test_status": "ESTIMABLE"
+      },
+      {
+        "estimand": "boundary_RC-039",
+        "exposure": "future_shock_pre2023_placebo",
+        "comparator": "within_stratum_control",
+        "estimate": 0.0132057,
+        "lower": -0.07508594,
+        "upper": 0.10149735,
+        "test_status": "ESTIMABLE"
+      },
+      {
+        "estimand": "boundary_RC-040",
+        "exposure": "scheduled_bot_passive_placebo",
+        "comparator": "within_stratum_control",
+        "estimate": -0.33817091,
+        "lower": -0.36455262,
+        "upper": -0.3117892,
+        "test_status": "ESTIMABLE"
+      }
+    ],
+    "rc036_pre_touch_by_ecosystem": {},
+    "post_20260504_censored_anchors_total": 17269,
+    "post_20260504_censored_anchors_recoverable": 3430
+  }
+}

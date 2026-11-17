@@ -1,0 +1,10 @@
+variant_id,contrast_group,comparator_id,is_reference,n_rows_total,n_rows_changed,n_mask_changed,n_treated_changed,n_control_changed,fraction_rows_changed,toggle_activated,activation_note
+git_history_x_verified_removal,A0_2x2_factorial,git_history_x_verified_removal,True,74673,0,0,0,0,0.0,True,reference_baseline
+git_history_x_naive_removal,A0_2x2_factorial,git_history_x_verified_removal,False,74673,3923,0,3094,829,0.052536,True,activated
+legacy_release_proxy_x_verified_removal,A0_2x2_factorial,git_history_x_verified_removal,False,74673,2658,0,2077,581,0.035595,True,activated
+legacy_release_proxy_x_naive_removal,A0_2x2_factorial,git_history_x_verified_removal,False,74673,34415,0,21656,12759,0.460876,True,activated
+git_active_plus_passive,A0_mechanism_variants,git_history_x_verified_removal,False,74673,34216,0,21507,12709,0.458211,True,activated
+pre_signal_bot,A0_mechanism_variants,head_bot,False,74673,299,0,216,83,0.004004,True,activated
+head_bot,A0_mechanism_variants,pre_signal_bot,False,74673,299,0,216,83,0.004004,True,activated
+unfiltered_risk_set,A0_mechanism_variants,future_14d_persistence,False,74673,2846,329,2217,629,0.038113,True,activated
+future_14d_persistence,A0_mechanism_variants,unfiltered_risk_set,False,74673,2846,329,2217,629,0.038113,True,activated

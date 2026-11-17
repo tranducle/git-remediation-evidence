@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0033",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-w7f5-jrpr-5c2m",
+  "advisory_time_utc": "2022-07-26T23:25:06+00:00",
+  "fix_commit_time_utc": "2023-01-19T21:16:58+00:00",
+  "pr_merged_at_utc": "2023-01-19T21:16:58+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 7a8aac681984 (2023-01-19T21:16:58+00:00): Merge pull request #247 from rayokota/dependabot/maven/avatica.version-1.23.0; commit 2d4d83673c88 (2023-01-14T05:47:42+00:00): Merge pull request #244 from rayokota/dependabot/maven/org.apache.maven.plugins-maven-dependency-plugin-3.5.0"
+}

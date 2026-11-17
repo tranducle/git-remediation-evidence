@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0047",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-j97h-3f8r-mrjr",
+  "advisory_time_utc": "2026-06-26T10:24:30+00:00",
+  "fix_commit_time_utc": "2026-11-13T18:13:05+00:00",
+  "pr_merged_at_utc": "2026-11-13T18:13:05+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit a29205c77840 (2026-11-13T18:13:05+00:00): Generate the admin API v2 OpenAPI validation hints in English regardless of the build locale (#54853); commit bf624877cf2e (2026-11-13T17:41:09+00:00): Clean up Azure CI resources after workflow completion (#54835)"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0058",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-q6cq-mhr2-jmr5",
+  "advisory_time_utc": "2026-07-08T19:26:36+00:00",
+  "fix_commit_time_utc": "2026-11-15T10:13:27+00:00",
+  "pr_merged_at_utc": "2026-11-15T10:13:27+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 6701acb29d40 (2026-11-15T10:13:27+00:00): [improve][pip] PIP-502: Improve replication observability in the Admin API (#27472); commit 32a72684a7a9 (2026-11-15T01:32:14+00:00): [improve][fn] Port the function instance metrics to the Prometheus Java client 1.x (#27484)"
+}

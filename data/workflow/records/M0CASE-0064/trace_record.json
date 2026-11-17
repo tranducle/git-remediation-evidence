@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0064",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-wmmv-vvg5-993q",
+  "advisory_time_utc": "2026-01-07T21:51:59+00:00",
+  "fix_commit_time_utc": "2026-06-24T22:58:38+00:00",
+  "pr_merged_at_utc": "2026-06-24T22:58:38+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 8723d60739b6 (2026-06-24T22:58:38+00:00): [maven-release-plugin] prepare for next development iteration; commit de0dc406d558 (2026-06-24T22:58:36+00:00): [maven-release-plugin] prepare release finos-10"
+}

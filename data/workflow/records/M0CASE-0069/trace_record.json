@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0069",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-4rqf-8pfm-p36r",
+  "advisory_time_utc": "2024-09-27T00:54:05+00:00",
+  "fix_commit_time_utc": "2025-03-25T12:52:21+00:00",
+  "pr_merged_at_utc": "2025-03-25T12:52:21+00:00",
+  "outcome_unchanged": false,
+  "has_public_pr_signal": false,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "Git commit log 2025-03-25T12:52:21+00:00: Remove compose.yaml file",
+  "git_commits_text": "commit bbde4c43a1e9 (2025-03-25T12:52:21+00:00): Remove compose.yaml file; commit ce04b8a2029c (2025-03-25T12:33:23+00:00): Updating evaluation notebooks; commit 2a2843371b1d (2025-03-24T20:59:29+00:00): update"
+}

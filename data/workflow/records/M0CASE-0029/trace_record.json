@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0029",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2026-2162",
+  "advisory_time_utc": "2026-04-28T05:35:42+00:00",
+  "fix_commit_time_utc": "2026-08-06T22:07:16+00:00",
+  "pr_merged_at_utc": "2026-08-06T22:07:16+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit de17fd933770 (2026-08-06T22:07:16+00:00): Merge pull request #93 from nerium-data/add-todo; commit 3ecfb11252ac (2026-08-06T21:07:44+00:00): Merge pull request #92 from nerium-data/fix-sdist-contents"
+}

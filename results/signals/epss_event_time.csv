@@ -1,0 +1,10 @@
+experiment_id,event_time,horizon_days,is_reference,estimate,se,lower,upper,n_treated,n_controls,test_status,failure_reason
+E1,-6,-42,False,,,,,5522,204087,NOT_ESTIMABLE,Nonpositive two-way cluster variance (0.0); never silently repaired
+E1,-4,-28,False,,,,,5522,204087,NOT_ESTIMABLE,Nonpositive two-way cluster variance (0.0); never silently repaired
+E1,-3,-21,False,,,,,5522,204087,NOT_ESTIMABLE,Nonpositive two-way cluster variance (0.0); never silently repaired
+E1,-2,-14,False,,,,,5522,204087,NOT_ESTIMABLE,Nonpositive two-way cluster variance (0.0); never silently repaired
+E1,-1,-7,True,0.0,0.0,0.0,0.0,7108,67565,ESTIMABLE,normalized_reference_period
+E1,0,0,False,,,,,5522,204087,NOT_ESTIMABLE,Nonpositive two-way cluster variance (0.0); never silently repaired
+E1,3,21,False,0.010078820826332529,0.007129337005909774,-0.0039017705125171474,0.024059412165182203,5522,204087,ESTIMABLE,
+E1,7,49,False,0.013873623918227917,0.008653678874885228,-0.0030961974638163085,0.030843445300272145,5522,204087,ESTIMABLE,
+E1,13,91,False,0.016854252228045423,0.009234771758163245,-0.0012551940135869105,0.034963698469677756,5522,204087,ESTIMABLE,

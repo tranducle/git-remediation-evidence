@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0021",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2021-870",
+  "advisory_time_utc": "2021-10-12T08:11:17+00:00",
+  "fix_commit_time_utc": "2022-03-30T17:16:55+00:00",
+  "pr_merged_at_utc": "2022-03-30T17:16:55+00:00",
+  "outcome_unchanged": false,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "Git commit log 2022-03-30T17:16:55+00:00: Merge pull request #1 from bguedj/dependabot/pip/cvxopt-1.2.7",
+  "git_commits_text": "commit b6909dfd3d0f (2022-03-30T17:16:55+00:00): Merge pull request #1 from bguedj/dependabot/pip/cvxopt-1.2.7"
+}

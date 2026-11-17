@@ -1,0 +1,19 @@
+experiment_id,group,cause,cause_label,horizon_days,n_at_risk,n_events,n_censored,cif_180d,survival_180d,test_status,failure_reason
+E4,pooled_control,1,upgrade_12,180,19029,54,18936,0.0028377739240107204,0.995112722686426,ESTIMABLE,
+E4,pooled_control,2,passive_lock_3,180,19029,39,18936,0.002049503389563298,0.995112722686426,ESTIMABLE,
+E4,pooled_control,3,verified_removal_4,180,19029,0,18936,,0.995112722686426,SPARSE_ZERO_CELL,Zero events for cause 3 in pooled_control
+E4,pooled_treated,1,upgrade_12,180,55644,324,55196,0.005822730213500108,0.9919488174825678,ESTIMABLE,
+E4,pooled_treated,2,passive_lock_3,180,55644,124,55196,0.00222845230393214,0.9919488174825678,ESTIMABLE,
+E4,pooled_treated,3,verified_removal_4,180,55644,0,55196,,0.9919488174825678,SPARSE_ZERO_CELL,Zero events for cause 3 in pooled_treated
+E4,in_range_control,1,upgrade_12,180,16567,3,16525,0.00018108287559606446,0.9974648397416551,ESTIMABLE,
+E4,in_range_control,2,passive_lock_3,180,16567,39,16525,0.0023540773827488383,0.9974648397416551,ESTIMABLE,
+E4,in_range_control,3,verified_removal_4,180,16567,0,16525,,0.9974648397416551,SPARSE_ZERO_CELL,Zero events for cause 3 in in_range_control
+E4,in_range_treated,1,upgrade_12,180,44022,105,43793,0.002385171050838217,0.9947980555176957,ESTIMABLE,
+E4,in_range_treated,2,passive_lock_3,180,44022,124,43793,0.002816773431466085,0.9947980555176957,ESTIMABLE,
+E4,in_range_treated,3,verified_removal_4,180,44022,0,43793,,0.9947980555176957,SPARSE_ZERO_CELL,Zero events for cause 3 in in_range_treated
+E4,out_of_range_control,1,upgrade_12,180,2462,51,2411,0.020714865962632008,0.9792851340373679,ESTIMABLE,
+E4,out_of_range_control,2,passive_lock_3,180,2462,0,2411,,0.9792851340373679,SPARSE_ZERO_CELL,Zero events for cause 2 in out_of_range_control
+E4,out_of_range_control,3,verified_removal_4,180,2462,0,2411,,0.9792851340373679,SPARSE_ZERO_CELL,Zero events for cause 3 in out_of_range_control
+E4,out_of_range_treated,1,upgrade_12,180,11622,219,11403,0.018843572534847704,0.9811564274651523,ESTIMABLE,
+E4,out_of_range_treated,2,passive_lock_3,180,11622,0,11403,,0.9811564274651523,SPARSE_ZERO_CELL,Zero events for cause 2 in out_of_range_treated
+E4,out_of_range_treated,3,verified_removal_4,180,11622,0,11403,,0.9811564274651523,SPARSE_ZERO_CELL,Zero events for cause 3 in out_of_range_treated

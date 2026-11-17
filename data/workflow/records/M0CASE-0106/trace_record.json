@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0106",
+  "ecosystem": "npm",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-vh4f-fgpp-x8x2",
+  "advisory_time_utc": "2022-08-13T09:48:51+00:00",
+  "fix_commit_time_utc": "2023-01-24T17:49:48+00:00",
+  "pr_merged_at_utc": "2023-01-24T17:49:48+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit b01ee4ae05df (2023-01-24T17:49:48+00:00): Version++; commit 66593eeee6ff (2023-01-24T17:49:20+00:00): Version++"
+}

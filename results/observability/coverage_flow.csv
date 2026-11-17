@@ -1,0 +1,7 @@
+stratum_type,stratum_value,total_frame_units,recoverable_history_units,recoverability_rate,observed_known_state_units,eligibility_only_units,unknown_units,censored_units,head_rejected_units,ecosystem_coverage_gap,recoverability_screen_pass,ecosystem_gap_screen_pass,selection_review_required
+overall,ALL,74673,13785,0.184605,13550,235,60888,0,0,0.413248,False,False,True
+ecosystem,Maven,23521,1524,0.064793,1524,0,21997,0,0,0.413248,False,False,True
+ecosystem,PyPI,36921,5458,0.147829,5365,93,31463,0,0,0.413248,False,False,True
+ecosystem,npm,14231,6803,0.478041,6661,142,7428,0,0,0.413248,False,False,True
+treated,1,10233,915,0.089417,884,31,9318,0,0,0.413248,False,False,True
+treated,0,64440,12870,0.199721,12666,204,51570,0,0,0.413248,False,False,True

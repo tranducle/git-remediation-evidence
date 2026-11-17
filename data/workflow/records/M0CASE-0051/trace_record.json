@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0051",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-735f-pc8j-v9w8",
+  "advisory_time_utc": "2024-09-18T22:48:18+00:00",
+  "fix_commit_time_utc": "2025-03-11T08:44:03+00:00",
+  "pr_merged_at_utc": "2025-03-11T08:44:03+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 727dac6b23cb (2025-03-11T08:44:03+00:00): Bump axios from 1.7.4 to 1.8.2 in /linkis-web (#5220); commit 2c4522906471 (2025-03-11T08:43:31+00:00): Bump esbuild, @vitejs/plugin-vue and vite in /linkis-web-next (#5221)"
+}

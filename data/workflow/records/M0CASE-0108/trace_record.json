@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0108",
+  "ecosystem": "npm",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-677m-j7p3-52f9",
+  "advisory_time_utc": "2026-03-17T15:07:13+00:00",
+  "fix_commit_time_utc": "2026-09-11T10:00:56+00:00",
+  "pr_merged_at_utc": "2026-09-11T10:00:56+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 551a3dcf0feb (2026-09-11T10:00:56+00:00): test: use execFile for fixture scripts (#5549); commit ea5560c8d08c (2026-09-11T09:45:35+00:00): docs(examples): update create-react-app example docs links (#5535)"
+}

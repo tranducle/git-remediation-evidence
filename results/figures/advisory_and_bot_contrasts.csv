@@ -1,0 +1,10 @@
+contrast_id,label,group,estimate_pp,ci95_low_pp,ci95_high_pp,mme_pp,n_dyads
+E1_pure_cutover,EPSS pure model-switch cutover (13w),External Broadcast (K1),1.286,-0.9,3.472,5.0,12984
+E1_pooled_cohort,EPSS pooled cutover + organic (13w),External Broadcast (K1),1.685,-0.126,3.496,5.0,13403
+E1_ipw_weighted,EPSS observable-IPW weighted (13w),External Broadcast (K1),3.255,-1.623,8.134,5.0,13403
+E2_ghsa_main,GHSA review main shift (13w),Platform & Bot Governance (K2),1.149,0.239,2.059,4.0,13785
+E2_ghsa_ipw,GHSA review observable-IPW shift (13w),Platform & Bot Governance (K2),3.128,0.251,6.006,4.0,13785
+E2_bot_absent,GHSA shift: pre-anchor bot absent,Platform & Bot Governance (K2),1.241,0.322,2.159,4.0,10670
+E2_bot_present,GHSA shift: pre-anchor bot present,Platform & Bot Governance (K2),-1.799,-8.453,4.856,4.0,542
+E2_bot_interaction,GHSA x pre-anchor bot interaction,Platform & Bot Governance (K2),-3.039,-9.702,3.623,4.0,11210
+E3_kev_diff_17cves,"CISA KEV Maven minus npm/PyPI (17 CVEs, descriptive)",Statutory Catalog (K2),5.938,-4.442,16.317,4.0,11210

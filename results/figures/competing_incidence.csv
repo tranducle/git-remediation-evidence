@@ -1,0 +1,7 @@
+estimand_id,label,cause,cif_diff_pp,ci95_low_pp,ci95_high_pp,mme_pp,n_obs
+clean_upg_in_range,"Active upgrade (States 1/2): recoverable in-range (n=4,028)",Active Upgrade,3.093,0.88,5.306,3.5,4028
+clean_upg_pooled,"Active upgrade (States 1/2): all recoverable Git (n=13,785)",Active Upgrade,1.151,0.152,2.15,3.5,13785
+clean_upg_out_of_range,"Active upgrade (States 1/2): recoverable out-of-range (n=9,757)",Active Upgrade,0.286,-0.828,1.4,3.5,9757
+sealed_upg_diluted_74673,"Active upgrade (States 1/2): full-frame diluted (N=74,673)",Diluted Benchmark,0.298,0.115,0.482,3.5,74673
+clean_passive_lock3,"Passive lockfile only (State 3): recoverable Git (n=13,785)",Passive Lockfile,-0.158,-0.819,0.503,3.5,13785
+candidate_removal_ub,"Candidate removal upper bound (27 candidates, 0.20% total)",Removal Upper Bound,-0.045,-0.312,0.223,3.5,13797

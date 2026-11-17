@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0073",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-g9fm-r5mm-rf9f",
+  "advisory_time_utc": "2022-11-16T20:09:58+00:00",
+  "fix_commit_time_utc": "2023-05-03T10:47:38+00:00",
+  "pr_merged_at_utc": "2023-05-03T10:47:38+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 625dea273054 (2023-05-03T10:47:38+00:00): Issue template; commit c303f546d84f (2023-04-28T13:51:33+00:00): GH actions issues"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0032",
+  "ecosystem": "npm",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "GHSA-xxjr-mmjv-4gpg",
+  "advisory_time_utc": "2026-03-31T18:22:45+00:00",
+  "fix_commit_time_utc": "2026-09-27T03:36:25+00:00",
+  "pr_merged_at_utc": "2026-09-27T03:36:25+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 2f2bac464547 (2026-09-27T03:36:25+00:00): chore: Update e2e impact map (#39676); commit 7cc0450ae474 (2026-09-26T18:44:11+00:00): fix(engine): Handle Redis failure modes in engine v2 execution responses (#39486)"
+}

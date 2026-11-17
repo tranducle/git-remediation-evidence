@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0119",
+  "ecosystem": "PyPI",
+  "signal_type": "KEV_listing",
+  "advisory_id": "GHSA-86qp-5c8j-p5mr",
+  "advisory_time_utc": "2026-05-21T21:58:56+00:00",
+  "fix_commit_time_utc": "",
+  "pr_merged_at_utc": "",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "NO_POST_ANCHOR_COMMIT_OR_MISSING_SNAPSHOT"
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0079",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-49rx-x2rw-pc6f",
+  "advisory_time_utc": "2021-11-01T20:59:47+00:00",
+  "fix_commit_time_utc": "2021-11-05T14:02:45+00:00",
+  "pr_merged_at_utc": "2021-11-05T14:02:45+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 76d4aebbd852 (2021-11-05T14:02:45+00:00): Use an existing session in averaged vectors; new version"
+}

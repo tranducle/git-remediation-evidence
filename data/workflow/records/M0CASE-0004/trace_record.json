@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0004",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2023-225",
+  "advisory_time_utc": "2023-09-04T10:58:22+00:00",
+  "fix_commit_time_utc": "2023-11-14T11:42:49+00:00",
+  "pr_merged_at_utc": "2023-11-14T11:42:49+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 0317b490e328 (2023-11-14T11:42:49+00:00): Upgrade Django support (5.0) (#37)"
+}

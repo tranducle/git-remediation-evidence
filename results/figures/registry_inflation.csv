@@ -1,0 +1,9 @@
+stratum_label,panel_group,n_triads,proxy_rate_pct,git_active_rate_pct,inflation_pp,ci95_low_pp,ci95_high_pp,mme_pp
+"Recoverable in-range floating (n=4,028)",Clean Git,4028,97.17,2.408,94.762,92.148,97.376,5.0
+"Recoverable PyPI (n=5,458)",Clean Git,5458,36.46,1.264,35.196,27.704,42.688,5.0
+"Recoverable npm (n=6,803)",Clean Git,6803,34.132,2.705,31.427,27.365,35.49,5.0
+"All recoverable Git histories (n=13,785)",Clean Git,13785,31.375,2.256,29.119,25.384,32.853,5.0
+"Recoverable out-of-range blocked (n=9,757)",Clean Git,9757,4.212,2.193,2.019,-0.403,4.441,5.0
+"Recoverable Maven POMs (n=1,524)",Clean Git,1524,0.853,3.806,-2.953,-5.292,-0.613,5.0
+"Verified exact-pinned passive drift (n=4,810)",Placebo C1-T4,4810,0.0,0.0,0.0,0.0,0.076,1.0
+"Composite 74,673 panel (with v2 fallback)",Composite Diagnostic,74673,49.387,3.618,45.769,42.447,49.091,5.0

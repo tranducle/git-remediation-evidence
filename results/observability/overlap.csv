@@ -1,0 +1,9 @@
+record_type,covariate,n_treated,n_control,mean_treated,mean_control,sd_treated,sd_control,smd,abs_smd,balance_pass_010,balance_pass_025,included_in_propensity,common_support_low,common_support_high,common_support_count,common_support_rate,treated_in_support,control_in_support,kish_ess_treated,kish_ess_control,diagnostic_note
+COVARIATE_BALANCE,lagged_commits_90d,6691,15089,48.549993,23.025979,31.825576,26.98999,0.865015,0.865015,False,False,True,,,,,,,,,OK
+COVARIATE_BALANCE,lagged_contributors_90d,6691,15089,10.664624,4.076413,12.175998,6.466217,0.675817,0.675817,False,False,True,,,,,,,,,OK
+COVARIATE_BALANCE,project_age_days,9844,62979,2624.302578,1887.309764,1655.451268,1387.458614,0.482532,0.482532,False,False,True,,,,,,,,,OK
+COVARIATE_BALANCE,direct_dependency_degree,10233,64440,46.890648,9.153197,85.399643,33.04439,0.582821,0.582821,False,False,True,,,,,,,,,OK
+COVARIATE_BALANCE,patch_age_days,0,0,,,,,,,False,False,False,,,,,,,,,INSUFFICIENT_NONMISSING_OBSERVATIONS
+COVARIATE_BALANCE,pre_signal_bot_present,9854,62980,0.943272,0.0,0.231334,0.0,5.766493,5.766493,False,False,True,,,,,,,,,OK
+COVARIATE_BALANCE,historical_stars,0,0,,,,,,,False,False,False,,,,,,,,,EXCLUDED_HEAD_ONLY_OR_MISSING_HISTORICAL_STARS_FC11
+PROPENSITY_COMMON_SUPPORT,ALL_FROZEN,10233,64440,,,,,,5.766493,False,False,True,0.009706,0.954273,15267,0.701125,440,14827,440.0,90.6086,OK

@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0036",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-93ww-43rr-79v3",
+  "advisory_time_utc": "2024-11-22T05:20:55+00:00",
+  "fix_commit_time_utc": "2025-05-20T16:09:12+00:00",
+  "pr_merged_at_utc": "2025-05-20T16:09:12+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 3c511635ba74 (2025-05-20T16:09:12+00:00): Skip AIA for webauthn register if a crendential of teh correct type already exists Closes #39191; commit 72b0df7bee02 (2025-05-20T14:58:42+00:00): Revise DPoP Codes - refactor retrieveDPoPHeaderIfPresent method"
+}

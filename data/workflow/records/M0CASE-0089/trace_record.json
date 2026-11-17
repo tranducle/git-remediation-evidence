@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0089",
+  "ecosystem": "PyPI",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-r7r6-cc7p-4v5m",
+  "advisory_time_utc": "2025-10-10T20:00:39+00:00",
+  "fix_commit_time_utc": "2026-04-08T16:34:03+00:00",
+  "pr_merged_at_utc": "2026-04-08T16:34:03+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit 20b459079fc4 (2026-04-08T16:34:03+00:00): fix(ingest/powerbi): apply lowercase normalization to all upstream lineage URN code paths (#16879); commit a227a0879bbd (2026-04-08T14:35:18+00:00): feat(dataplex): support Vertex AI datasets in Dataplex mapping (#16917)"
+}

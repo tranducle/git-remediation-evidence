@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0055",
+  "ecosystem": "Maven",
+  "signal_type": "GHSA_review",
+  "advisory_id": "GHSA-9m3c-qcxr-9x87",
+  "advisory_time_utc": "2026-03-16T15:14:48+00:00",
+  "fix_commit_time_utc": "2026-08-21T08:46:37+00:00",
+  "pr_merged_at_utc": "2026-08-21T08:46:37+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=present; manifest unchanged.",
+  "git_commits_text": "commit e9e780fe623e (2026-08-21T08:46:37+00:00): Merge pull request #248 from xenit-eu/DOCKER-475; commit 841f82e925f9 (2026-07-30T14:10:54+00:00): Merge pull request #240 from xenit-eu/DOCKER-468_addendum"
+}

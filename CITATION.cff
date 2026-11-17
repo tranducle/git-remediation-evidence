@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the software or derived research data."
+type: software
+title: "Git remediation evidence: code and data"
+authors:
+  - family-names: Le
+    given-names: Tran Duc
+    orcid: "https://orcid.org/0000-0003-3735-0314"
+  - family-names: Dinh
+    given-names: Truong Duy
+    orcid: "https://orcid.org/0000-0002-9993-9792"
+  - family-names: Do
+    given-names: Phuc Hao
+    orcid: "https://orcid.org/0000-0003-0645-0021"
+  - family-names: Pham
+    given-names: Van Dai
+    orcid: "https://orcid.org/0000-0003-1363-0784"
+repository-code: "https://github.com/tranducle/git-remediation-evidence"
+url: "https://github.com/tranducle/git-remediation-evidence"
+license: MIT
+date-released: 2026-11-17
+abstract: "Analysis code and author-derived data for Measuring Vulnerability Remediation Beyond Registry Eligibility: Git Evidence from npm, PyPI, and Maven. Data are licensed separately under CC BY 4.0, subject to retained source terms described in DATA.md."

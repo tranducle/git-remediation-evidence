@@ -1,0 +1,14 @@
+{
+  "case_id": "M0CASE-0018",
+  "ecosystem": "PyPI",
+  "signal_type": "EPSS_cutover",
+  "advisory_id": "PYSEC-2021-261",
+  "advisory_time_utc": "2021-08-10T21:56:56+00:00",
+  "fix_commit_time_utc": "2021-12-02T12:14:15+00:00",
+  "pr_merged_at_utc": "2021-12-02T12:14:15+00:00",
+  "outcome_unchanged": true,
+  "has_public_pr_signal": true,
+  "clock_discordant_flag": false,
+  "pr_timeline_text": "NO_SECURITY_PR_FOUND: bot_config=absent; manifest unchanged.",
+  "git_commits_text": "commit 48e1e4c057f3 (2021-12-02T12:14:15+00:00): Fixed .readthedocs.yaml; commit 7600054577df (2021-11-11T10:42:49+00:00): Adding REST flags"
+}

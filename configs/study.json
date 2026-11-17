@@ -1,0 +1,78 @@
+{
+  "master_seed": 20261112,
+  "utc_window": {
+    "start": "2021-05-01T00:00:00Z",
+    "end": "2026-10-31T23:59:59Z",
+    "complete_horizon_anchor_cutoffs": {
+      "91d_primary": "2026-08-01T23:59:59Z",
+      "90d_sensitivity": "2026-08-02T23:59:59Z",
+      "180d_competing_risks": "2026-05-04T23:59:59Z",
+      "26w": "2026-05-02T23:59:59Z",
+      "52w": "2025-11-01T23:59:59Z"
+    }
+  },
+  "allocation_salts": {
+    "development": "tenure1-paper4-repair-v3-dev",
+    "audit": "tenure1-paper4-repair-v3-audit",
+    "hash_input_rule": "Exact UTF-8 salt concatenated with canonical family ID, no separator; bucket = int(sha256_hex, 16) mod 100",
+    "validation_buckets": [
+      0,
+      14
+    ],
+    "analysis_buckets": [
+      15,
+      99
+    ],
+    "validation_share": 0.15,
+    "analysis_share": 0.85,
+    "development_repository_cap": 150
+  },
+  "supported_parser_version": "git-measurement-v4.0",
+  "supported_ecosystems": [
+    "npm",
+    "PyPI",
+    "Maven"
+  ],
+  "supported_manifests": [
+    "package.json",
+    "pyproject.toml",
+    "setup.py",
+    "setup.cfg",
+    "requirements.txt",
+    "pom.xml"
+  ],
+  "supported_lockfiles": [
+    "package-lock.json",
+    "npm-shrinkwrap.json",
+    "yarn.lock",
+    "pnpm-lock.yaml",
+    "poetry.lock",
+    "Pipfile.lock",
+    "uv.lock"
+  ],
+  "inference_budgets": {
+    "bootstrap_reps": 1999,
+    "permutation_reps": 9999,
+    "p0_reps": 1000,
+    "alpha": 0.05,
+    "mme_pp": {
+      "E1": 0.05,
+      "E2": 0.04,
+      "E3": 0.04,
+      "E4": 0.035
+    },
+    "mme_sensitivity_pp": [
+      0.01,
+      0.02
+    ],
+    "primary_contrast_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "multiplicity_method": "holm_step_down",
+    "few_cve_cluster_threshold": 25,
+    "few_calendar_shock_threshold": 10
+  }
+}
